@@ -1,0 +1,2 @@
+package: org.grindlish.prototype
+uses-permission: name='android.permission.VIBRATE'

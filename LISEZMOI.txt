@@ -1,0 +1,57 @@
+GRINDLISH — 0.2.0, lot 2 jouable, Godot 4.3
+
+LANCER
+Windows : extraire l'archive Windows, conserver Grindlish.exe et Grindlish.pck
+ensemble, lancer l'exe. APK Android ARM64 : version de développement signée
+(debug), autoriser l'installation locale uniquement si vous faites confiance
+au fichier. Ces plateformes n'ont pas été essayées sur matériel natif ici.
+Sources : importer project.godot avec Godot 4.3 stable, attendre l'import puis F5.
+Le jeu fonctionne hors ligne, sans compte, publicité ni télémétrie.
+
+BUT
+Max et Lou se préparent pour un tournoi international. Reconstituer le mot,
+faire des figures et atterrir pour encaisser le combo. Carrière : mot complet
+= 1 étoile ; score cible = +1 ; meilleur combo 400 = +1. Une étoile ouvre la
+prochaine étape. Sept parcs dont deux bonus ; objectifs visibles dans le HUD.
+
+MODES
+Carrière, Jam au score, Défi du mot au temps, Combo Challenge, Chasse aux pièces,
+Mot du jour déterministe et Sans pression. Le libre n'a pas de fin automatique :
+Pause > Abandonner. Les modes hors carrière ne donnent ni argent ni déblocage.
+Les records sont distincts ; les aides sans chute/sans chrono sont séparées.
+
+TOUCHES PAR DÉFAUT
+ZQSD PHYSIQUES sur AZERTY / flèches : direction, accélération, frein.
+Espace : saut. X/Maj : flip. C/Ctrl : grab. Échap/P : pause. T : passer tutoriel.
+Manette : stick, gâchettes, A saut, X flip, B grab, Start pause.
+Réglages : remappage et rétablissement, tactile/gaucher/taille, audio, langue,
+qualité, 30/60 FPS, texte agrandi, ordre des lettres, indices, A1/A2/B1 indicatifs.
+
+VOCABULAIRE
+70 mots avec traduction, définition, exemple, pictogramme et prononciation
+américaine synthétisée localement (Piper/LJSpeech, pas une voix humaine promise).
+Quiz au mot terminé, facultatif et non bloquant. Carnet trié pour les révisions
+à échéance ; une erreur revient immédiatement, les réussites sont espacées.
+Espace professeur/parent : PIN local, CSV et import JSON (docs/WORDS.md).
+Le PIN n'est PAS un chiffrement. Ne pas importer de données personnelles.
+Garage : améliorations et styles, aperçu 3D à faire tourner avant achat.
+
+SAUVEGARDE
+user://skate_jam.cfg (format compatible + section v2), copie .bak ; carnet
+user://grindlish_words.json. Migration de l'ancien dossier Skate Jam si disponible.
+Sur Android, le changement d'identifiant de paquet ne transfère pas les données
+entre applications. --nosave n'écrit pas la progression ni le carnet.
+
+TESTS / LIMITES
+Voir docs/REPORT.md, docs/tests/lot2 et captures OpenGL. Les parcours physiques
+ont été testés par pilote, sans garantie universelle de zéro collision. Pas de
+validation Windows/Android/iOS native, de ressenti manette, ni de FPS matériels.
+Tout le cahier des charges d'un jeu commercial fini n'est pas encore réalisé.
+
+CLI (après --)
+--auto --god --level=1 --mode=career --screen=play --shot=chemin.png --frame=120
+--test=flow|collision|learning|systems|modes --nosave --touch --res=2400x1080
+Options de diagnostic supplémentaires : --word=board --locale=en --seed-words.
+Préférer --nosave avec --cheat/--coins/--unlock et les fixtures de capture.
+Tests : GODOT=/chemin/godot python3 tools/run_tests.py
+Crédits et provenance fichier par fichier : CREDITS.md, docs/ASSETS_LEDGER.csv.

@@ -1,0 +1,44 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+TextServer: Added interface "Dummy"
+TextServer: Added interface "ICU / HarfBuzz / Graphite (Built-in)"
+JoypadLinux: udev enabled and loaded successfully.
+Xshape 1.1 detected.
+Xinerama 1.1 detected.
+Xrandr 1.6 detected.
+Xrender 0.11 detected.
+Xinput 2.2 detected.
+XInput: Refreshing devices.
+XInput: No touch devices found.
+Detecting GPUs, set DRI_PRIME in the environment to override GPU detection logic.
+Only one GPU found, using default.
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:360)
+XcursorGetTheme could not get cursor theme
+Failed loading custom cursor: crossed_circle
+ScreenSaver: DBus 1.16.2 detected.
+PortalDesktop: DBus 1.16.2 detected.
+Using "default" pen tablet driver...
+Shader 'CanvasSdfShaderGLES3' SHA256: e1fc4015d45db07fce0346b99c312728ab006030520ec796da1461e1428345c5
+Shader 'SkeletonShaderGLES3' SHA256: 1263d23cbf2c741ea0eeb49f0d491965f279256c0e8a0aefc45f2f1424a78981
+Shader 'ParticlesShaderGLES3' SHA256: a930f560f4bd815df15e876a2ccc5e960c9c8e8cfcbddeb25801d6be714a695d
+Shader 'ParticlesCopyShaderGLES3' SHA256: f91b2d9e101716619407e5b96aeea9a517a129fa3a1b5070f040a2e5b528da80
+Shader 'CopyShaderGLES3' SHA256: dbe7ebad1989310ea48c4fa461ad02433653e0347193b18e3cbaacc5a84ce4c1
+Shader 'CubemapFilterShaderGLES3' SHA256: 94cc79eede087e28a344f7d1fc6df28b8ecbde8f60c1d838b70da52a140e509a
+Shader 'GlowShaderGLES3' SHA256: 427cfd9bd0cc4045ecaa4bc4f23055a2a40660411d8e1663897a7c2cd3c80665
+Shader 'PostShaderGLES3' SHA256: 91c8e817857c25b289cd3537adaae06b29b55785e433a8f64e43aaa3403cc426
+Shader 'CanvasShaderGLES3' SHA256: 937a973adb9286833f71d53c145b728aac382543574fa7155634cfaad7c6916f
+Shader 'CanvasOcclusionShaderGLES3' SHA256: 6baa8caaecef40c331cf27f156879d8ca7d8bf94ec84f8168903490f61264d2d
+Shader 'SceneShaderGLES3' SHA256: b4ee2a03ba6713b8bbcfa7136a4cfe635e3063daf825e6b44e16ccecfedcfb4d
+Shader 'SkyShaderGLES3' SHA256: 7f698602f57eedb8ca9a5aec33d91771ff079bf59a365b2a598d28c2b8f7a639
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+TextServer: Primary interface set to: "ICU / HarfBuzz / Graphite (Built-in)".
+CORE API HASH: 966092234
+EDITOR API HASH: 444927587
+Loaded system CA certificates
+STATE pos=(0, 0.08, 19.5) st=0 score=0 coins=0 letters=[false, false, false, false, false]
+XR: Clearing primary interface
+XR: Removed interface "Native mobile"
+XR: Removed interface "OpenXR"
+Orphan StringName: Music (static: 0, total: 1)
+StringName: 1 unclaimed string names at exit.

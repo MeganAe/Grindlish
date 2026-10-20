@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "engine": "4.3.stable.official.77dcf97d8",
+  "code_and_data_sha256": "97973b862c5325f304117d5066d1b37eb3fbec96461afb85476393ae19b7bc0f",
+  "native_hardware_tested": false,
+  "artifacts": {
+    "build/windows/Grindlish.exe": {
+      "bytes": 84214784,
+      "sha256": "984874d8469e8dba7cf7d8a4b40a7697d999e0430e864d8c2ba8e2ae8c6011e4"
+    },
+    "build/windows/Grindlish.pck": {
+      "bytes": 8625280,
+      "sha256": "5dd78959a1255cb0b59ee6dd1cdc324b71ee9173767432f3c6d3ce0cb1aa3ef3"
+    },
+    "build/android/Grindlish-debug.apk": {
+      "bytes": 31777025,
+      "sha256": "31c784c3d06071ee94e4a854d63a98b870b9ddaf2019347a2075bb30ef665bc2"
+    }
+  }
+}

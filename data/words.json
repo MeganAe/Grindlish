@@ -1,0 +1,702 @@
+[
+  {
+    "word": "board",
+    "fr": "planche",
+    "theme": "skate",
+    "level": "A1",
+    "definition": "A flat piece of wood used for skating.",
+    "example": "My board has four wheels.",
+    "audio": "res://audio/words/board.wav",
+    "image": "res://assets/words/board.svg"
+  },
+  {
+    "word": "wheel",
+    "fr": "roue",
+    "theme": "skate",
+    "level": "A1",
+    "definition": "A round part that lets a board move.",
+    "example": "Each wheel turns as I skate.",
+    "audio": "res://audio/words/wheel.wav",
+    "image": "res://assets/words/wheel.svg"
+  },
+  {
+    "word": "rail",
+    "fr": "barre",
+    "theme": "skate",
+    "level": "A1",
+    "definition": "A long metal bar used for sliding.",
+    "example": "I jump onto the rail.",
+    "audio": "res://audio/words/rail.wav",
+    "image": "res://assets/words/rail.svg"
+  },
+  {
+    "word": "jump",
+    "fr": "saut",
+    "theme": "skate",
+    "level": "A1",
+    "definition": "A move that takes you into the air.",
+    "example": "My jump is high.",
+    "audio": "res://audio/words/jump.wav",
+    "image": "res://assets/words/jump.svg"
+  },
+  {
+    "word": "trick",
+    "fr": "figure",
+    "theme": "skate",
+    "level": "A1",
+    "definition": "A special move that takes practice.",
+    "example": "I can do a new trick.",
+    "audio": "res://audio/words/trick.wav",
+    "image": "res://assets/words/trick.svg"
+  },
+  {
+    "word": "speed",
+    "fr": "vitesse",
+    "theme": "skate",
+    "level": "A1",
+    "definition": "How fast something moves.",
+    "example": "Keep your speed on the ramp.",
+    "audio": "res://audio/words/speed.wav",
+    "image": "res://assets/words/speed.svg"
+  },
+  {
+    "word": "turn",
+    "fr": "virage",
+    "theme": "skate",
+    "level": "A1",
+    "definition": "A change in direction.",
+    "example": "Make a left turn.",
+    "audio": "res://audio/words/turn.wav",
+    "image": "res://assets/words/turn.svg"
+  },
+  {
+    "word": "helmet",
+    "fr": "casque",
+    "theme": "skate",
+    "level": "A1",
+    "definition": "A hard hat that protects your head.",
+    "example": "Put on your helmet.",
+    "audio": "res://audio/words/helmet.wav",
+    "image": "res://assets/words/helmet.svg"
+  },
+  {
+    "word": "knee",
+    "fr": "genou",
+    "theme": "skate",
+    "level": "A1",
+    "definition": "The joint in the middle of your leg.",
+    "example": "Bend your knee before a jump.",
+    "audio": "res://audio/words/knee.wav",
+    "image": "res://assets/words/knee.svg"
+  },
+  {
+    "word": "shoe",
+    "fr": "chaussure",
+    "theme": "skate",
+    "level": "A1",
+    "definition": "Something you wear on your foot.",
+    "example": "My shoe is on the board.",
+    "audio": "res://audio/words/shoe.wav",
+    "image": "res://assets/words/shoe.svg"
+  },
+  {
+    "word": "push",
+    "fr": "poussée",
+    "theme": "skate",
+    "level": "A1",
+    "definition": "An action that moves something away.",
+    "example": "Give the board a gentle push.",
+    "audio": "res://audio/words/push.wav",
+    "image": "res://assets/words/push.svg"
+  },
+  {
+    "word": "ride",
+    "fr": "balade",
+    "theme": "skate",
+    "level": "A1",
+    "definition": "A journey on a board or a vehicle.",
+    "example": "Let's go for a ride.",
+    "audio": "res://audio/words/ride.wav",
+    "image": "res://assets/words/ride.svg"
+  },
+  {
+    "word": "street",
+    "fr": "rue",
+    "theme": "town",
+    "level": "A1",
+    "definition": "A road in a town with buildings beside it.",
+    "example": "Our street has a skate shop.",
+    "audio": "res://audio/words/street.wav",
+    "image": "res://assets/words/street.svg"
+  },
+  {
+    "word": "bench",
+    "fr": "banc",
+    "theme": "town",
+    "level": "A1",
+    "definition": "A long seat for several people.",
+    "example": "We sit on the bench.",
+    "audio": "res://audio/words/bench.wav",
+    "image": "res://assets/words/bench.svg"
+  },
+  {
+    "word": "shop",
+    "fr": "boutique",
+    "theme": "town",
+    "level": "A1",
+    "definition": "A place where people buy things.",
+    "example": "The shop sells boards.",
+    "audio": "res://audio/words/shop.wav",
+    "image": "res://assets/words/shop.svg"
+  },
+  {
+    "word": "car",
+    "fr": "voiture",
+    "theme": "town",
+    "level": "A1",
+    "definition": "A small road vehicle with four wheels.",
+    "example": "The car is parked outside.",
+    "audio": "res://audio/words/car.wav",
+    "image": "res://assets/words/car.svg"
+  },
+  {
+    "word": "tree",
+    "fr": "arbre",
+    "theme": "town",
+    "level": "A1",
+    "definition": "A tall plant with a wooden trunk.",
+    "example": "A tree gives us shade.",
+    "audio": "res://audio/words/tree.wav",
+    "image": "res://assets/words/tree.svg"
+  },
+  {
+    "word": "house",
+    "fr": "maison",
+    "theme": "town",
+    "level": "A1",
+    "definition": "A building where people live.",
+    "example": "Her house is near the park.",
+    "audio": "res://audio/words/house.wav",
+    "image": "res://assets/words/house.svg"
+  },
+  {
+    "word": "park",
+    "fr": "parc",
+    "theme": "town",
+    "level": "A1",
+    "definition": "An open public place for play and rest.",
+    "example": "We skate in the park.",
+    "audio": "res://audio/words/park.wav",
+    "image": "res://assets/words/park.svg"
+  },
+  {
+    "word": "road",
+    "fr": "route",
+    "theme": "town",
+    "level": "A1",
+    "definition": "A way for vehicles to travel.",
+    "example": "Look before you cross the road.",
+    "audio": "res://audio/words/road.wav",
+    "image": "res://assets/words/road.svg"
+  },
+  {
+    "word": "door",
+    "fr": "porte",
+    "theme": "town",
+    "level": "A1",
+    "definition": "A part of a wall that opens to let you in.",
+    "example": "Please close the door.",
+    "audio": "res://audio/words/door.wav",
+    "image": "res://assets/words/door.svg"
+  },
+  {
+    "word": "window",
+    "fr": "fenêtre",
+    "theme": "town",
+    "level": "A1",
+    "definition": "An opening with glass in a wall.",
+    "example": "I can see the park through the window.",
+    "audio": "res://audio/words/window.wav",
+    "image": "res://assets/words/window.svg"
+  },
+  {
+    "word": "school",
+    "fr": "école",
+    "theme": "town",
+    "level": "A1",
+    "definition": "A place where children learn.",
+    "example": "I learn English at school.",
+    "audio": "res://audio/words/school.wav",
+    "image": "res://assets/words/school.svg"
+  },
+  {
+    "word": "friend",
+    "fr": "ami",
+    "theme": "town",
+    "level": "A1",
+    "definition": "A person you like and know well.",
+    "example": "My friend helps me practise.",
+    "audio": "res://audio/words/friend.wav",
+    "image": "res://assets/words/friend.svg"
+  },
+  {
+    "word": "beach",
+    "fr": "plage",
+    "theme": "sea",
+    "level": "A1",
+    "definition": "An area of sand or stones beside the sea.",
+    "example": "We walk along the beach.",
+    "audio": "res://audio/words/beach.wav",
+    "image": "res://assets/words/beach.svg"
+  },
+  {
+    "word": "wave",
+    "fr": "vague",
+    "theme": "sea",
+    "level": "A1",
+    "definition": "A moving raised part of the sea.",
+    "example": "A wave reaches the beach.",
+    "audio": "res://audio/words/wave.wav",
+    "image": "res://assets/words/wave.svg"
+  },
+  {
+    "word": "sand",
+    "fr": "sable",
+    "theme": "sea",
+    "level": "A1",
+    "definition": "Very small grains of rock.",
+    "example": "There is sand in my shoe.",
+    "audio": "res://audio/words/sand.wav",
+    "image": "res://assets/words/sand.svg"
+  },
+  {
+    "word": "shell",
+    "fr": "coquillage",
+    "theme": "sea",
+    "level": "A1",
+    "definition": "The hard outer part of a sea animal.",
+    "example": "I find a shell on the beach.",
+    "audio": "res://audio/words/shell.wav",
+    "image": "res://assets/words/shell.svg"
+  },
+  {
+    "word": "boat",
+    "fr": "bateau",
+    "theme": "sea",
+    "level": "A1",
+    "definition": "A vehicle that travels on water.",
+    "example": "The boat is near the beach.",
+    "audio": "res://audio/words/boat.wav",
+    "image": "res://assets/words/boat.svg"
+  },
+  {
+    "word": "sea",
+    "fr": "mer",
+    "theme": "sea",
+    "level": "A1",
+    "definition": "A large area of salt water.",
+    "example": "The sea is blue today.",
+    "audio": "res://audio/words/sea.wav",
+    "image": "res://assets/words/sea.svg"
+  },
+  {
+    "word": "sun",
+    "fr": "soleil",
+    "theme": "sea",
+    "level": "A1",
+    "definition": "The star that gives Earth light and heat.",
+    "example": "The sun is bright.",
+    "audio": "res://audio/words/sun.wav",
+    "image": "res://assets/words/sun.svg"
+  },
+  {
+    "word": "fish",
+    "fr": "poisson",
+    "theme": "sea",
+    "level": "A1",
+    "definition": "An animal that lives and breathes in water.",
+    "example": "A fish swims under the boat.",
+    "audio": "res://audio/words/fish.wav",
+    "image": "res://assets/words/fish.svg"
+  },
+  {
+    "word": "water",
+    "fr": "eau",
+    "theme": "sea",
+    "level": "A1",
+    "definition": "The clear liquid people need to drink.",
+    "example": "Drink some water after skating.",
+    "audio": "res://audio/words/water.wav",
+    "image": "res://assets/words/water.svg"
+  },
+  {
+    "word": "wind",
+    "fr": "vent",
+    "theme": "sea",
+    "level": "A1",
+    "definition": "Air moving outside.",
+    "example": "The wind moves the trees.",
+    "audio": "res://audio/words/wind.wav",
+    "image": "res://assets/words/wind.svg"
+  },
+  {
+    "word": "bird",
+    "fr": "oiseau",
+    "theme": "sea",
+    "level": "A1",
+    "definition": "An animal with feathers and wings.",
+    "example": "A bird flies above the park.",
+    "audio": "res://audio/words/bird.wav",
+    "image": "res://assets/words/bird.svg"
+  },
+  {
+    "word": "sky",
+    "fr": "ciel",
+    "theme": "sea",
+    "level": "A1",
+    "definition": "The space above us that we see outside.",
+    "example": "Clouds fill the sky.",
+    "audio": "res://audio/words/sky.wav",
+    "image": "res://assets/words/sky.svg"
+  },
+  {
+    "word": "truck",
+    "fr": "camion",
+    "theme": "industry",
+    "level": "A2",
+    "definition": "A large road vehicle that carries goods.",
+    "example": "The truck carries wood.",
+    "audio": "res://audio/words/truck.wav",
+    "image": "res://assets/words/truck.svg"
+  },
+  {
+    "word": "crane",
+    "fr": "grue",
+    "theme": "industry",
+    "level": "A2",
+    "definition": "A tall machine that lifts heavy things.",
+    "example": "The crane lifts metal.",
+    "audio": "res://audio/words/crane.wav",
+    "image": "res://assets/words/crane.svg"
+  },
+  {
+    "word": "metal",
+    "fr": "métal",
+    "theme": "industry",
+    "level": "A2",
+    "definition": "A hard material such as iron.",
+    "example": "This rail is made of metal.",
+    "audio": "res://audio/words/metal.wav",
+    "image": "res://assets/words/metal.svg"
+  },
+  {
+    "word": "factory",
+    "fr": "usine",
+    "theme": "industry",
+    "level": "A2",
+    "definition": "A building where people make things.",
+    "example": "The factory makes tools.",
+    "audio": "res://audio/words/factory.wav",
+    "image": "res://assets/words/factory.svg"
+  },
+  {
+    "word": "bridge",
+    "fr": "pont",
+    "theme": "industry",
+    "level": "A2",
+    "definition": "A structure that crosses a road or water.",
+    "example": "The bridge crosses the river.",
+    "audio": "res://audio/words/bridge.wav",
+    "image": "res://assets/words/bridge.svg"
+  },
+  {
+    "word": "worker",
+    "fr": "ouvrier",
+    "theme": "industry",
+    "level": "A2",
+    "definition": "A person who does a job.",
+    "example": "The worker wears a helmet.",
+    "audio": "res://audio/words/worker.wav",
+    "image": "res://assets/words/worker.svg"
+  },
+  {
+    "word": "tool",
+    "fr": "outil",
+    "theme": "industry",
+    "level": "A2",
+    "definition": "An object used to make or repair things.",
+    "example": "I use a tool to fix my board.",
+    "audio": "res://audio/words/tool.wav",
+    "image": "res://assets/words/tool.svg"
+  },
+  {
+    "word": "wood",
+    "fr": "bois",
+    "theme": "industry",
+    "level": "A2",
+    "definition": "The hard material that comes from trees.",
+    "example": "My board is made of wood.",
+    "audio": "res://audio/words/wood.wav",
+    "image": "res://assets/words/wood.svg"
+  },
+  {
+    "word": "brick",
+    "fr": "brique",
+    "theme": "industry",
+    "level": "A2",
+    "definition": "A hard block used to build walls.",
+    "example": "This wall is made of brick.",
+    "audio": "res://audio/words/brick.wav",
+    "image": "res://assets/words/brick.svg"
+  },
+  {
+    "word": "roof",
+    "fr": "toit",
+    "theme": "industry",
+    "level": "A2",
+    "definition": "The top part of a building.",
+    "example": "There is a bird on the roof.",
+    "audio": "res://audio/words/roof.wav",
+    "image": "res://assets/words/roof.svg"
+  },
+  {
+    "word": "gate",
+    "fr": "portail",
+    "theme": "industry",
+    "level": "A2",
+    "definition": "A door in a fence or an outside wall.",
+    "example": "Close the gate when you leave.",
+    "audio": "res://audio/words/gate.wav",
+    "image": "res://assets/words/gate.svg"
+  },
+  {
+    "word": "machine",
+    "fr": "machine",
+    "theme": "industry",
+    "level": "A2",
+    "definition": "A device that does a particular job.",
+    "example": "The machine cuts the wood.",
+    "audio": "res://audio/words/machine.wav",
+    "image": "res://assets/words/machine.svg"
+  },
+  {
+    "word": "light",
+    "fr": "lumière",
+    "theme": "night",
+    "level": "A2",
+    "definition": "What makes it possible to see.",
+    "example": "We need light to skate safely.",
+    "audio": "res://audio/words/light.wav",
+    "image": "res://assets/words/light.svg"
+  },
+  {
+    "word": "star",
+    "fr": "étoile",
+    "theme": "night",
+    "level": "A2",
+    "definition": "A bright object in the night sky.",
+    "example": "I can see a star above the roof.",
+    "audio": "res://audio/words/star.wav",
+    "image": "res://assets/words/star.svg"
+  },
+  {
+    "word": "moon",
+    "fr": "lune",
+    "theme": "night",
+    "level": "A2",
+    "definition": "The round object that moves around Earth.",
+    "example": "The moon looks bright tonight.",
+    "audio": "res://audio/words/moon.wav",
+    "image": "res://assets/words/moon.svg"
+  },
+  {
+    "word": "night",
+    "fr": "nuit",
+    "theme": "night",
+    "level": "A2",
+    "definition": "The time when it is dark outside.",
+    "example": "We go home before night.",
+    "audio": "res://audio/words/night.wav",
+    "image": "res://assets/words/night.svg"
+  },
+  {
+    "word": "city",
+    "fr": "ville",
+    "theme": "night",
+    "level": "A2",
+    "definition": "A large town where many people live.",
+    "example": "The city has several parks.",
+    "audio": "res://audio/words/city.wav",
+    "image": "res://assets/words/city.svg"
+  },
+  {
+    "word": "shadow",
+    "fr": "ombre",
+    "theme": "night",
+    "level": "A2",
+    "definition": "A dark shape where something blocks light.",
+    "example": "My shadow moves with me.",
+    "audio": "res://audio/words/shadow.wav",
+    "image": "res://assets/words/shadow.svg"
+  },
+  {
+    "word": "cloud",
+    "fr": "nuage",
+    "theme": "night",
+    "level": "A2",
+    "definition": "A group of tiny drops high in the sky.",
+    "example": "A cloud covers the sun.",
+    "audio": "res://audio/words/cloud.wav",
+    "image": "res://assets/words/cloud.svg"
+  },
+  {
+    "word": "dream",
+    "fr": "rêve",
+    "theme": "night",
+    "level": "A2",
+    "definition": "A story or images in your mind while you sleep.",
+    "example": "I had a dream about skating.",
+    "audio": "res://audio/words/dream.wav",
+    "image": "res://assets/words/dream.svg"
+  },
+  {
+    "word": "sound",
+    "fr": "son",
+    "theme": "night",
+    "level": "A2",
+    "definition": "Something you can hear.",
+    "example": "I hear the sound of wheels.",
+    "audio": "res://audio/words/sound.wav",
+    "image": "res://assets/words/sound.svg"
+  },
+  {
+    "word": "music",
+    "fr": "musique",
+    "theme": "night",
+    "level": "A2",
+    "definition": "Sounds arranged to make a tune.",
+    "example": "We listen to music after practice.",
+    "audio": "res://audio/words/music.wav",
+    "image": "res://assets/words/music.svg"
+  },
+  {
+    "word": "evening",
+    "fr": "soirée",
+    "theme": "night",
+    "level": "A2",
+    "definition": "The part of the day before night.",
+    "example": "We skate in the evening.",
+    "audio": "res://audio/words/evening.wav",
+    "image": "res://assets/words/evening.svg"
+  },
+  {
+    "word": "lamp",
+    "fr": "lampe",
+    "theme": "night",
+    "level": "A2",
+    "definition": "An object that gives light.",
+    "example": "The lamp lights the path.",
+    "audio": "res://audio/words/lamp.wav",
+    "image": "res://assets/words/lamp.svg"
+  },
+  {
+    "word": "balance",
+    "fr": "équilibre",
+    "theme": "skate",
+    "level": "B1",
+    "definition": "The ability to stay steady without falling.",
+    "example": "Good balance helps me stay on my board.",
+    "audio": "res://audio/words/balance.wav",
+    "image": "res://assets/words/balance.svg"
+  },
+  {
+    "word": "protect",
+    "fr": "protéger",
+    "theme": "skate",
+    "level": "B1",
+    "definition": "To keep someone or something safe from harm.",
+    "example": "A helmet helps protect your head.",
+    "audio": "res://audio/words/protect.wav",
+    "image": "res://assets/words/protect.svg"
+  },
+  {
+    "word": "traffic",
+    "fr": "circulation routière",
+    "theme": "town",
+    "level": "B1",
+    "definition": "The vehicles moving along a road.",
+    "example": "There is a lot of traffic near the shop.",
+    "audio": "res://audio/words/traffic.wav",
+    "image": "res://assets/words/traffic.svg"
+  },
+  {
+    "word": "journey",
+    "fr": "voyage",
+    "theme": "town",
+    "level": "B1",
+    "definition": "The act of travelling from one place to another.",
+    "example": "Our journey starts at the station.",
+    "audio": "res://audio/words/journey.wav",
+    "image": "res://assets/words/journey.svg"
+  },
+  {
+    "word": "current",
+    "fr": "courant d’eau",
+    "theme": "sea",
+    "level": "B1",
+    "definition": "Water moving in a particular direction.",
+    "example": "The current carries the boat towards the shore.",
+    "audio": "res://audio/words/current.wav",
+    "image": "res://assets/words/current.svg"
+  },
+  {
+    "word": "harbor",
+    "fr": "port",
+    "theme": "sea",
+    "level": "B1",
+    "definition": "An area of water where boats can stay safely.",
+    "example": "The boat is waiting in the harbor.",
+    "audio": "res://audio/words/harbor.wav",
+    "image": "res://assets/words/harbor.svg"
+  },
+  {
+    "word": "repair",
+    "fr": "réparer",
+    "theme": "industry",
+    "level": "B1",
+    "definition": "To make a broken thing work again.",
+    "example": "Lou can repair a wheel with this tool.",
+    "audio": "res://audio/words/repair.wav",
+    "image": "res://assets/words/repair.svg"
+  },
+  {
+    "word": "material",
+    "fr": "matériau",
+    "theme": "industry",
+    "level": "B1",
+    "definition": "A substance used to make something.",
+    "example": "Wood is a useful material for a board.",
+    "audio": "res://audio/words/material.wav",
+    "image": "res://assets/words/material.svg"
+  },
+  {
+    "word": "reflect",
+    "fr": "refléter",
+    "theme": "night",
+    "level": "B1",
+    "definition": "To send back light or show an image.",
+    "example": "The windows reflect the evening light.",
+    "audio": "res://audio/words/reflect.wav",
+    "image": "res://assets/words/reflect.svg"
+  },
+  {
+    "word": "silence",
+    "fr": "silence",
+    "theme": "night",
+    "level": "B1",
+    "definition": "A situation with little or no sound.",
+    "example": "We enjoy a moment of silence after the music.",
+    "audio": "res://audio/words/silence.wav",
+    "image": "res://assets/words/silence.svg"
+  }
+]

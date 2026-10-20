@@ -1,0 +1,38 @@
+[
+  {
+    "test": "import",
+    "exit_code": 0,
+    "errors": [],
+    "seconds": 5.41
+  },
+  {
+    "test": "learning",
+    "exit_code": 0,
+    "errors": [],
+    "seconds": 125.59
+  },
+  {
+    "test": "safety",
+    "exit_code": 0,
+    "errors": [],
+    "seconds": 84.08
+  },
+  {
+    "test": "systems",
+    "exit_code": 0,
+    "errors": [],
+    "seconds": 2.13
+  },
+  {
+    "test": "modes",
+    "exit_code": 0,
+    "errors": [],
+    "seconds": 113.98
+  },
+  {
+    "test": "flow",
+    "exit_code": 0,
+    "errors": [],
+    "seconds": 1.15
+  }
+]

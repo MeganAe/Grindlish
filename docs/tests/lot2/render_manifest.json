@@ -1,0 +1,258 @@
+[
+  {
+    "case": "park_1",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  },
+  {
+    "case": "park_2",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  },
+  {
+    "case": "park_3",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  },
+  {
+    "case": "park_4",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ],
+    "physics_frame": 480,
+    "autopilot": true
+  },
+  {
+    "case": "park_5",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  },
+  {
+    "case": "park_6",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  },
+  {
+    "case": "park_7",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  },
+  {
+    "case": "shop3d",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ],
+    "physics_frame": 25,
+    "autopilot": false
+  },
+  {
+    "case": "controls",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  },
+  {
+    "case": "menu",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  },
+  {
+    "case": "modes",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  },
+  {
+    "case": "levels",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  },
+  {
+    "case": "briefing",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  },
+  {
+    "case": "help",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  },
+  {
+    "case": "options",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  },
+  {
+    "case": "pause",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  },
+  {
+    "case": "end",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  },
+  {
+    "case": "shop",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  },
+  {
+    "case": "notebook",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  },
+  {
+    "case": "quiz",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  },
+  {
+    "case": "teacher",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  },
+  {
+    "case": "credits",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  },
+  {
+    "case": "menu_en",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  },
+  {
+    "case": "options_en",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  },
+  {
+    "case": "touch_2400x1080",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      2400,
+      1080
+    ]
+  },
+  {
+    "case": "touch_1920x1080",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "case": "touch_2560x1600",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      2560,
+      1600
+    ]
+  },
+  {
+    "case": "touch_1280x720",
+    "exit_code": 0,
+    "errors": [],
+    "pixels": [
+      1280,
+      720
+    ]
+  }
+]

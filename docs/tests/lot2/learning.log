@@ -1,0 +1,213 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+
+PASS physical word=board park=1 letters=5/5 elapsed=56.98 bails=0 travel=152.9
+PASS pilot actually moved for board
+PASS audio exists board
+PASS physical word=wheel park=1 letters=5/5 elapsed=56.98 bails=0 travel=152.9
+PASS pilot actually moved for wheel
+PASS audio exists wheel
+PASS physical word=rail park=1 letters=4/4 elapsed=38.38 bails=0 travel=121.9
+PASS pilot actually moved for rail
+PASS audio exists rail
+PASS physical word=jump park=1 letters=4/4 elapsed=38.38 bails=0 travel=121.9
+PASS pilot actually moved for jump
+PASS audio exists jump
+PASS physical word=trick park=1 letters=5/5 elapsed=56.98 bails=0 travel=152.9
+PASS pilot actually moved for trick
+PASS audio exists trick
+PASS physical word=speed park=1 letters=5/5 elapsed=56.98 bails=0 travel=152.9
+PASS pilot actually moved for speed
+PASS audio exists speed
+PASS physical word=turn park=1 letters=4/4 elapsed=38.38 bails=0 travel=121.9
+PASS pilot actually moved for turn
+PASS audio exists turn
+PASS physical word=helmet park=1 letters=6/6 elapsed=56.85 bails=0 travel=158.7
+PASS pilot actually moved for helmet
+PASS audio exists helmet
+PASS physical word=knee park=1 letters=4/4 elapsed=38.38 bails=0 travel=121.9
+PASS pilot actually moved for knee
+PASS audio exists knee
+PASS physical word=shoe park=1 letters=4/4 elapsed=38.38 bails=0 travel=121.9
+PASS pilot actually moved for shoe
+PASS audio exists shoe
+PASS physical word=push park=1 letters=4/4 elapsed=38.38 bails=0 travel=121.9
+PASS pilot actually moved for push
+PASS audio exists push
+PASS physical word=ride park=1 letters=4/4 elapsed=38.38 bails=0 travel=121.9
+PASS pilot actually moved for ride
+PASS audio exists ride
+PASS physical word=street park=2 letters=6/6 elapsed=78.2 bails=0 travel=226.4
+PASS pilot actually moved for street
+PASS audio exists street
+PASS physical word=bench park=2 letters=5/5 elapsed=57.72 bails=0 travel=181
+PASS pilot actually moved for bench
+PASS audio exists bench
+PASS physical word=shop park=2 letters=4/4 elapsed=51.45 bails=0 travel=160.7
+PASS pilot actually moved for shop
+PASS audio exists shop
+PASS physical word=car park=2 letters=3/3 elapsed=45.28 bails=0 travel=135
+PASS pilot actually moved for car
+PASS audio exists car
+PASS physical word=tree park=2 letters=4/4 elapsed=51.45 bails=0 travel=160.7
+PASS pilot actually moved for tree
+PASS audio exists tree
+PASS physical word=house park=2 letters=5/5 elapsed=57.72 bails=0 travel=181
+PASS pilot actually moved for house
+PASS audio exists house
+PASS physical word=park park=2 letters=4/4 elapsed=51.45 bails=0 travel=160.7
+PASS pilot actually moved for park
+PASS audio exists park
+PASS physical word=road park=2 letters=4/4 elapsed=51.45 bails=0 travel=160.7
+PASS pilot actually moved for road
+PASS audio exists road
+PASS physical word=door park=2 letters=4/4 elapsed=51.45 bails=0 travel=160.7
+PASS pilot actually moved for door
+PASS audio exists door
+PASS physical word=window park=2 letters=6/6 elapsed=78.2 bails=0 travel=226.4
+PASS pilot actually moved for window
+PASS audio exists window
+PASS physical word=school park=2 letters=6/6 elapsed=78.2 bails=0 travel=226.4
+PASS pilot actually moved for school
+PASS audio exists school
+PASS physical word=friend park=2 letters=6/6 elapsed=78.2 bails=0 travel=226.4
+PASS pilot actually moved for friend
+PASS audio exists friend
+PASS physical word=beach park=3 letters=5/5 elapsed=60.12 bails=0 travel=164.4
+PASS pilot actually moved for beach
+PASS audio exists beach
+PASS physical word=wave park=3 letters=4/4 elapsed=53.35 bails=0 travel=156.1
+PASS pilot actually moved for wave
+PASS audio exists wave
+PASS physical word=sand park=3 letters=4/4 elapsed=53.33 bails=0 travel=156.1
+PASS pilot actually moved for sand
+PASS audio exists sand
+PASS physical word=shell park=3 letters=5/5 elapsed=60.15 bails=0 travel=164.4
+PASS pilot actually moved for shell
+PASS audio exists shell
+PASS physical word=boat park=3 letters=4/4 elapsed=53.35 bails=0 travel=156.1
+PASS pilot actually moved for boat
+PASS audio exists boat
+PASS physical word=sea park=3 letters=3/3 elapsed=47.42 bails=0 travel=129.2
+PASS pilot actually moved for sea
+PASS audio exists sea
+PASS physical word=sun park=3 letters=3/3 elapsed=47.4 bails=0 travel=129.2
+PASS pilot actually moved for sun
+PASS audio exists sun
+PASS physical word=fish park=3 letters=4/4 elapsed=53.33 bails=0 travel=156.1
+PASS pilot actually moved for fish
+PASS audio exists fish
+PASS physical word=water park=3 letters=5/5 elapsed=60.03 bails=0 travel=164.4
+PASS pilot actually moved for water
+PASS audio exists water
+PASS physical word=wind park=3 letters=4/4 elapsed=53.32 bails=0 travel=156.1
+PASS pilot actually moved for wind
+PASS audio exists wind
+PASS physical word=bird park=3 letters=4/4 elapsed=53.33 bails=0 travel=156.1
+PASS pilot actually moved for bird
+PASS audio exists bird
+PASS physical word=sky park=3 letters=3/3 elapsed=47.4 bails=0 travel=129.2
+PASS pilot actually moved for sky
+PASS audio exists sky
+PASS physical word=truck park=4 letters=5/5 elapsed=60.22 bails=0 travel=166.8
+PASS pilot actually moved for truck
+PASS audio exists truck
+PASS physical word=crane park=4 letters=5/5 elapsed=60.22 bails=0 travel=166.8
+PASS pilot actually moved for crane
+PASS audio exists crane
+PASS physical word=metal park=4 letters=5/5 elapsed=60.22 bails=0 travel=166.8
+PASS pilot actually moved for metal
+PASS audio exists metal
+PASS physical word=factory park=4 letters=7/7 elapsed=73.12 bails=0 travel=231.4
+PASS pilot actually moved for factory
+PASS audio exists factory
+PASS physical word=bridge park=4 letters=6/6 elapsed=75.98 bails=0 travel=199.7
+PASS pilot actually moved for bridge
+PASS audio exists bridge
+PASS physical word=worker park=4 letters=6/6 elapsed=75.98 bails=0 travel=199.7
+PASS pilot actually moved for worker
+PASS audio exists worker
+PASS physical word=tool park=4 letters=4/4 elapsed=53.03 bails=0 travel=157.8
+PASS pilot actually moved for tool
+PASS audio exists tool
+PASS physical word=wood park=4 letters=4/4 elapsed=53.03 bails=0 travel=157.8
+PASS pilot actually moved for wood
+PASS audio exists wood
+PASS physical word=brick park=4 letters=5/5 elapsed=60.22 bails=0 travel=166.8
+PASS pilot actually moved for brick
+PASS audio exists brick
+PASS physical word=roof park=4 letters=4/4 elapsed=53.03 bails=0 travel=157.8
+PASS pilot actually moved for roof
+PASS audio exists roof
+PASS physical word=gate park=4 letters=4/4 elapsed=53.03 bails=0 travel=157.8
+PASS pilot actually moved for gate
+PASS audio exists gate
+PASS physical word=machine park=4 letters=7/7 elapsed=73.03 bails=0 travel=231.4
+PASS pilot actually moved for machine
+PASS audio exists machine
+PASS physical word=light park=5 letters=5/5 elapsed=68.85 bails=0 travel=223.9
+PASS pilot actually moved for light
+PASS audio exists light
+PASS physical word=star park=5 letters=4/4 elapsed=55.55 bails=0 travel=181.3
+PASS pilot actually moved for star
+PASS audio exists star
+PASS physical word=moon park=5 letters=4/4 elapsed=55.55 bails=0 travel=181.3
+PASS pilot actually moved for moon
+PASS audio exists moon
+PASS physical word=night park=5 letters=5/5 elapsed=67.42 bails=0 travel=220.1
+PASS pilot actually moved for night
+PASS audio exists night
+PASS physical word=city park=5 letters=4/4 elapsed=55.55 bails=0 travel=181.3
+PASS pilot actually moved for city
+PASS audio exists city
+PASS physical word=shadow park=5 letters=6/6 elapsed=84.7 bails=0 travel=260.2
+PASS pilot actually moved for shadow
+PASS audio exists shadow
+PASS physical word=cloud park=5 letters=5/5 elapsed=67.42 bails=0 travel=220.1
+PASS pilot actually moved for cloud
+PASS audio exists cloud
+PASS physical word=dream park=5 letters=5/5 elapsed=67.42 bails=0 travel=220.1
+PASS pilot actually moved for dream
+PASS audio exists dream
+PASS physical word=sound park=5 letters=5/5 elapsed=67.42 bails=0 travel=220.1
+PASS pilot actually moved for sound
+PASS audio exists sound
+PASS physical word=music park=5 letters=5/5 elapsed=67.42 bails=0 travel=220.1
+PASS pilot actually moved for music
+PASS audio exists music
+PASS physical word=evening park=5 letters=7/7 elapsed=92.35 bails=0 travel=301.7
+PASS pilot actually moved for evening
+PASS audio exists evening
+PASS physical word=lamp park=5 letters=4/4 elapsed=55.55 bails=0 travel=181.3
+PASS pilot actually moved for lamp
+PASS audio exists lamp
+PASS physical word=balance park=1 letters=7/7 elapsed=61.78 bails=0 travel=176.4
+PASS pilot actually moved for balance
+PASS audio exists balance
+PASS physical word=protect park=1 letters=7/7 elapsed=61.78 bails=0 travel=176.4
+PASS pilot actually moved for protect
+PASS audio exists protect
+PASS physical word=traffic park=2 letters=7/7 elapsed=67.52 bails=0 travel=215
+PASS pilot actually moved for traffic
+PASS audio exists traffic
+PASS physical word=journey park=2 letters=7/7 elapsed=67.52 bails=0 travel=215
+PASS pilot actually moved for journey
+PASS audio exists journey
+PASS physical word=current park=3 letters=7/7 elapsed=90.95 bails=0 travel=249.3
+PASS pilot actually moved for current
+PASS audio exists current
+PASS physical word=harbor park=3 letters=6/6 elapsed=82.3 bails=0 travel=220.5
+PASS pilot actually moved for harbor
+PASS audio exists harbor
+PASS physical word=repair park=4 letters=6/6 elapsed=75.98 bails=0 travel=199.7
+PASS pilot actually moved for repair
+PASS audio exists repair
+PASS physical word=material park=4 letters=8/8 elapsed=74.43 bails=0 travel=216.2
+PASS pilot actually moved for material
+PASS audio exists material
+PASS physical word=reflect park=5 letters=7/7 elapsed=110.82 bails=0 travel=347.1
+PASS pilot actually moved for reflect
+PASS audio exists reflect
+PASS physical word=silence park=5 letters=7/7 elapsed=92.27 bails=0 travel=301.7
+PASS pilot actually moved for silence
+PASS audio exists silence
+SUITE learning checks=210 failures=0
