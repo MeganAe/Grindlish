@@ -30,6 +30,8 @@ func run(kind: String) -> void:
 		await safety()
 	elif kind == "systems":
 		await systems()
+	elif kind == "life":
+		await life_tests()
 	elif kind == "modes":
 		await modes()
 	print("SUITE ", kind, " checks=", checks, " failures=", failures)
@@ -284,3 +286,86 @@ func audio_mix_checks() -> void:
 	for index in volumes.size():
 		AudioServer.set_bus_volume_db(index, volumes[index][0])
 		AudioServer.set_bus_mute(index, volumes[index][1])
+
+func life_tests() -> void:
+	var music := {}
+	var ambience := {}
+	var Reference := load("res://docs/rendu/reference/code/levels.gd")
+	for id in range(1,8):
+		check(host.Lv.get_level(id)==Reference.get_level(id),"original level data unchanged id="+str(id))
+	for id in range(1,11):
+		var profile: Dictionary = preload("res://worlds.gd").profile(id)
+		check(ResourceLoader.exists(profile.music) and ResourceLoader.exists(profile.ambience),"world audio exists id="+str(id))
+		music[profile.music] = true
+		ambience[profile.ambience] = true
+	check(music.size()==10 and ambience.size()==10,"ten unique music and ambience mappings")
+	var rows := []
+	for setting in 3:
+		Save.life_density = setting
+		for id in range(1,11):
+			Engine.set_meta("mode","free")
+			host._begin(id)
+			await ready_game()
+			var game: Node3D = host.game
+			var life: Node3D = game.life
+			game.set_physics_process(false)
+			game.skater.set_physics_process(false)
+			life.set_physics_process(false)
+			var rng := RandomNumberGenerator.new()
+			rng.seed = 741+id
+			var equivalent := true
+			for trial in 1000:
+				var a := Vector3(rng.randf_range(-150,150),rng.randf_range(0,40),rng.randf_range(-150,150))
+				var b := a+Vector3(rng.randf_range(-20,20),rng.randf_range(-5,5),rng.randf_range(-20,20))
+				var radius := rng.randf_range(.2,3.5)
+				var height := rng.randf_range(.3,2.5)
+				equivalent = equivalent and life.clear_sweep(a,b,radius,height)==life.clear_sweep_brute(a,b,radius,height)
+			check(equivalent,"spatial hash equals exhaustive sweep: 1000 segments id=%d density=%d" % [id,setting])
+
+			var counts := {"arena":0,"solid":0,"skater":0,"pair":0,"sweep":0}
+			var query := PhysicsShapeQueryParameters3D.new()
+			var shape := BoxShape3D.new()
+			query.shape = shape
+			query.collide_with_areas = false
+			for step in 1200:
+				life.advance(.05)
+				for i in life.agents.size():
+					var agent: Dictionary = life.agents[i]
+					var at: Vector3 = agent.node.position
+					if absf(at.x)<life.half.x+agent.radius and absf(at.z)<life.half.y+agent.radius:
+						counts.arena += 1
+					if not life.clear_sweep(agent.previous,at,agent.radius,agent.height):
+						counts.sweep += 1
+					if at.distance_to(game.skater.position)<agent.radius+.55:
+						counts.skater += 1
+					for j in range(i+1,life.agents.size()):
+						var other: Dictionary = life.agents[j]
+						var there: Vector3 = other.node.position
+						if absf(at.y-there.y)<minf(agent.height,other.height) and at.distance_to(there)<agent.radius+other.radius-.02:
+							counts.pair += 1
+					# Real physics overlap every second; feet remain 8 cm above ground.
+					if step%20==0 and agent.type!="fish":
+						shape.size = Vector3(agent.radius*2,agent.height,agent.radius*2)
+						query.transform = Transform3D(Basis.IDENTITY,at+Vector3.UP*(agent.height*.5+.02))
+						if not game.get_world_3d().direct_space_state.intersect_shape(query,1).is_empty():
+							counts.solid += 1
+			var moved := true
+			var pedestrians := 0
+			var pauses := 0
+			for agent in life.agents:
+				moved = moved and agent.moved>3
+				if agent.type=="person":
+					pedestrians += 1
+					pauses += agent.stops
+			check(counts.values().all(func(v): return v==0),"life safety id=%d density=%d violations=%s" % [id,setting,str(counts)])
+			check(moved and pauses>0 and pedestrians==[4,8,12][setting],"life moves and pauses id=%d density=%d agents=%d" % [id,setting,life.agents.size()])
+			game.bank.emit(800)
+			life.advance(.1)
+			check(life.reaction>2 and life.agents[0].state=="emote-yes","large figure reaction id="+str(id)+" density="+str(setting))
+			rows.append({"world":id,"density":setting,"seconds":60,"agents":life.agents.size(),"violations":counts,"blocked_steps":life.blocked_steps,"conversations":life.conversations,"moving":moved})
+			await get_tree().process_frame
+	check(rows.any(func(row): return row.conversations>0),"nearby pedestrians really stop and talk in simulation")
+	var file := FileAccess.open("res://docs/rendu/tests/life_details.json",FileAccess.WRITE)
+	file.store_string(JSON.stringify(rows,"  "))
+	file.close()
+	Save.life_density = 1

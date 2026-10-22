@@ -1,0 +1,52 @@
+{
+  "renderer": "gl_compatibility",
+  "sky": "ProceduralSkyMaterial, colours from levels.gd",
+  "ambient_colour": "#bbced1",
+  "ambient_energy": {
+    "day": 0.55,
+    "parks_5_6": 0.4
+  },
+  "tonemap": "LINEAR",
+  "sun_energy": {
+    "day": 0.85,
+    "parks_5_6": 0.45
+  },
+  "sun_rotation_degrees": [
+    -52,
+    -35,
+    0
+  ],
+  "shadows": "quality>0",
+  "shadow_distance": 70,
+  "quality_default": 1,
+  "resolution_scale_default": 0.85,
+  "camera": {
+    "distance": 11,
+    "height": 5.4,
+    "initial_fov": 68,
+    "speed_fov": [
+      66,
+      78
+    ]
+  },
+  "note": "Valeurs réellement lues : différentes de 0.5/0.8 citées dans la consigne. Elles sont conservées pour les sept parcs existants, sans ajustement silencieux.",
+  "source_sha256": {
+    "route_map.gd": "98941ae6d17608106700db21786a97d9653ec30b1e6a625c27af3b54efebcd1e",
+    "scenery.gd": "b3255abf40552222d89d3e9e1d212f972112e5eaea651fee6d8dca27e0f4b5e0",
+    "park.gd": "8130eefece48079381e343cfc662ab7799b55a54256a1cc1fc05d06b9ee728be",
+    "main.gd": "ac8233a8ea07982dae5c08803d11fc3adb3778cfce7367950cb3a3abbbd19d82",
+    "lexicon.gd": "6e0c9abb5a7b6e7f3b3edc865ec1072cf0370c5872259b4b3be7e0a57dd56480",
+    "ui.gd": "38ba4c1b500067fa48bef44184aae1fd3f25d7f946dcaa21d646f86ec7044c6f",
+    "skater.gd": "37ba10a28c4c071cd5a26c4c68be79e75027561b194c31c979ebd068d507228c",
+    "game.gd": "e2da46fdf897caba7464c1ab588c044e4cac197c310e4bfe399ae7f201ec060f",
+    "touch.gd": "9c05d01ca16e7707aa1a2a3fd308d4d5cb4b0743df5898ea175c1ad954863f88",
+    "sfx.gd": "edf41bf79ca04099ecbf148f545f257be0216cbbc5f8913e165a3266685e2348",
+    "test_suite.gd": "2c1191bf55e8162455fb5ae3e42068de6154682db10eeb76e5567fb85a920694",
+    "pickup3d.gd": "b044ba79251ac504ad0bcdc0153715773a45ea418c1e1e7dd20894a40f9ad5ec",
+    "autopilot.gd": "c2364202c4166df65658ebaaa0253455146cc14710a8006880fac3506f6c22d8",
+    "cam.gd": "a8d6a705dbc3dc97c3a2804878295be6d7279632677e89e1975db83ca591c224",
+    "save.gd": "39902bbad8dbb9ced9a26730ffde6633088d642b5d7ce82c863d21a8e85136f4",
+    "levels.gd": "ccafe34415d2ae3082dbec040913fddf362ccb6a7a5a49ecef2b7a6c38f3de4d",
+    "shop_preview.gd": "d374538d09d9ec096847666089d3762f25a73b5550677f4c9978d227ed29c009"
+  }
+}

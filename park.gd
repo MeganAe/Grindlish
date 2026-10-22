@@ -91,6 +91,7 @@ static func build(root: Node3D, lv: Dictionary) -> Dictionary:
 	floor_visual.position.y = -0.12
 	var surface := StandardMaterial3D.new()
 	surface.albedo_color = Color("b9ad94") if lv.get("floor") == "wood" else Color("778b91")
+	surface.albedo_color = lv.get("floor_colour", surface.albedo_color)
 	surface.roughness = 0.97
 	floor_visual.material_override = surface
 	root.add_child(floor_visual)

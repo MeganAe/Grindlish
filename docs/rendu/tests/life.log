@@ -1,0 +1,142 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+
+PASS original level data unchanged id=1
+PASS original level data unchanged id=2
+PASS original level data unchanged id=3
+PASS original level data unchanged id=4
+PASS original level data unchanged id=5
+PASS original level data unchanged id=6
+PASS original level data unchanged id=7
+PASS world audio exists id=1
+PASS world audio exists id=2
+PASS world audio exists id=3
+PASS world audio exists id=4
+PASS world audio exists id=5
+PASS world audio exists id=6
+PASS world audio exists id=7
+PASS world audio exists id=8
+PASS world audio exists id=9
+PASS world audio exists id=10
+PASS ten unique music and ambience mappings
+PASS spatial hash equals exhaustive sweep: 1000 segments id=1 density=0
+PASS life safety id=1 density=0 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=1 density=0 agents=9
+PASS large figure reaction id=1 density=0
+PASS spatial hash equals exhaustive sweep: 1000 segments id=2 density=0
+PASS life safety id=2 density=0 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=2 density=0 agents=9
+PASS large figure reaction id=2 density=0
+PASS spatial hash equals exhaustive sweep: 1000 segments id=3 density=0
+PASS life safety id=3 density=0 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=3 density=0 agents=8
+PASS large figure reaction id=3 density=0
+PASS spatial hash equals exhaustive sweep: 1000 segments id=4 density=0
+PASS life safety id=4 density=0 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=4 density=0 agents=8
+PASS large figure reaction id=4 density=0
+PASS spatial hash equals exhaustive sweep: 1000 segments id=5 density=0
+PASS life safety id=5 density=0 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=5 density=0 agents=9
+PASS large figure reaction id=5 density=0
+PASS spatial hash equals exhaustive sweep: 1000 segments id=6 density=0
+PASS life safety id=6 density=0 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=6 density=0 agents=8
+PASS large figure reaction id=6 density=0
+PASS spatial hash equals exhaustive sweep: 1000 segments id=7 density=0
+PASS life safety id=7 density=0 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=7 density=0 agents=8
+PASS large figure reaction id=7 density=0
+PASS spatial hash equals exhaustive sweep: 1000 segments id=8 density=0
+PASS life safety id=8 density=0 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=8 density=0 agents=9
+PASS large figure reaction id=8 density=0
+PASS spatial hash equals exhaustive sweep: 1000 segments id=9 density=0
+PASS life safety id=9 density=0 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=9 density=0 agents=9
+PASS large figure reaction id=9 density=0
+PASS spatial hash equals exhaustive sweep: 1000 segments id=10 density=0
+PASS life safety id=10 density=0 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=10 density=0 agents=8
+PASS large figure reaction id=10 density=0
+PASS spatial hash equals exhaustive sweep: 1000 segments id=1 density=1
+PASS life safety id=1 density=1 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=1 density=1 agents=16
+PASS large figure reaction id=1 density=1
+PASS spatial hash equals exhaustive sweep: 1000 segments id=2 density=1
+PASS life safety id=2 density=1 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=2 density=1 agents=16
+PASS large figure reaction id=2 density=1
+PASS spatial hash equals exhaustive sweep: 1000 segments id=3 density=1
+PASS life safety id=3 density=1 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=3 density=1 agents=15
+PASS large figure reaction id=3 density=1
+PASS spatial hash equals exhaustive sweep: 1000 segments id=4 density=1
+PASS life safety id=4 density=1 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=4 density=1 agents=15
+PASS large figure reaction id=4 density=1
+PASS spatial hash equals exhaustive sweep: 1000 segments id=5 density=1
+PASS life safety id=5 density=1 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=5 density=1 agents=16
+PASS large figure reaction id=5 density=1
+PASS spatial hash equals exhaustive sweep: 1000 segments id=6 density=1
+PASS life safety id=6 density=1 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=6 density=1 agents=15
+PASS large figure reaction id=6 density=1
+PASS spatial hash equals exhaustive sweep: 1000 segments id=7 density=1
+PASS life safety id=7 density=1 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=7 density=1 agents=15
+PASS large figure reaction id=7 density=1
+PASS spatial hash equals exhaustive sweep: 1000 segments id=8 density=1
+PASS life safety id=8 density=1 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=8 density=1 agents=16
+PASS large figure reaction id=8 density=1
+PASS spatial hash equals exhaustive sweep: 1000 segments id=9 density=1
+PASS life safety id=9 density=1 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=9 density=1 agents=15
+PASS large figure reaction id=9 density=1
+PASS spatial hash equals exhaustive sweep: 1000 segments id=10 density=1
+PASS life safety id=10 density=1 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=10 density=1 agents=15
+PASS large figure reaction id=10 density=1
+PASS spatial hash equals exhaustive sweep: 1000 segments id=1 density=2
+PASS life safety id=1 density=2 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=1 density=2 agents=24
+PASS large figure reaction id=1 density=2
+PASS spatial hash equals exhaustive sweep: 1000 segments id=2 density=2
+PASS life safety id=2 density=2 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=2 density=2 agents=24
+PASS large figure reaction id=2 density=2
+PASS spatial hash equals exhaustive sweep: 1000 segments id=3 density=2
+PASS life safety id=3 density=2 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=3 density=2 agents=23
+PASS large figure reaction id=3 density=2
+PASS spatial hash equals exhaustive sweep: 1000 segments id=4 density=2
+PASS life safety id=4 density=2 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=4 density=2 agents=23
+PASS large figure reaction id=4 density=2
+PASS spatial hash equals exhaustive sweep: 1000 segments id=5 density=2
+PASS life safety id=5 density=2 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=5 density=2 agents=24
+PASS large figure reaction id=5 density=2
+PASS spatial hash equals exhaustive sweep: 1000 segments id=6 density=2
+PASS life safety id=6 density=2 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=6 density=2 agents=23
+PASS large figure reaction id=6 density=2
+PASS spatial hash equals exhaustive sweep: 1000 segments id=7 density=2
+PASS life safety id=7 density=2 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=7 density=2 agents=23
+PASS large figure reaction id=7 density=2
+PASS spatial hash equals exhaustive sweep: 1000 segments id=8 density=2
+PASS life safety id=8 density=2 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=8 density=2 agents=24
+PASS large figure reaction id=8 density=2
+PASS spatial hash equals exhaustive sweep: 1000 segments id=9 density=2
+PASS life safety id=9 density=2 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=9 density=2 agents=22
+PASS large figure reaction id=9 density=2
+PASS spatial hash equals exhaustive sweep: 1000 segments id=10 density=2
+PASS life safety id=10 density=2 violations={ "arena": 0, "solid": 0, "skater": 0, "pair": 0, "sweep": 0 }
+PASS life moves and pauses id=10 density=2 agents=23
+PASS large figure reaction id=10 density=2
+PASS nearby pedestrians really stop and talk in simulation
+SUITE life checks=139 failures=0

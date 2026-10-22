@@ -1,0 +1,218 @@
+[
+  {
+    "phase": "avant",
+    "log": "fps_parc_1.log",
+    "median_fps": 5.0,
+    "samples": [
+      6.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      6.0,
+      5.0
+    ],
+    "last_render": [
+      5,
+      394,
+      126276
+    ]
+  },
+  {
+    "phase": "avant",
+    "log": "fps_parc_5.log",
+    "median_fps": 5.0,
+    "samples": [
+      5.0,
+      5.0,
+      5.0,
+      6.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      6.0
+    ],
+    "last_render": [
+      5,
+      587,
+      161792
+    ]
+  },
+  {
+    "phase": "avant",
+    "log": "fps_threads2_full_parc_1.log",
+    "median_fps": 6.0,
+    "samples": [
+      6.0,
+      6.0,
+      5.0,
+      6.0,
+      5.0,
+      6.0,
+      6.0,
+      6.0
+    ],
+    "last_render": [
+      6,
+      393,
+      125708
+    ]
+  },
+  {
+    "phase": "avant",
+    "log": "fps_threads2_full_parc_5.log",
+    "median_fps": 5.0,
+    "samples": [
+      5.0,
+      6.0,
+      5.0,
+      5.0,
+      6.0,
+      5.0,
+      6.0,
+      5.0,
+      6.0
+    ],
+    "last_render": [
+      5,
+      586,
+      161708
+    ]
+  },
+  {
+    "phase": "avant",
+    "log": "fps_threads2_parc_1.log",
+    "median_fps": 5.0,
+    "samples": [
+      6.0,
+      5.0,
+      5.0
+    ],
+    "last_render": [
+      5,
+      309,
+      101604
+    ]
+  },
+  {
+    "phase": "apr\u00e8s",
+    "log": "fps_parc_10_q0_d0.log",
+    "median_fps": 16.0,
+    "samples": [
+      16.0,
+      16.0,
+      16.0,
+      15.0,
+      16.0,
+      15.0
+    ],
+    "last_render": [
+      15,
+      91,
+      12008
+    ]
+  },
+  {
+    "phase": "apr\u00e8s",
+    "log": "fps_parc_10_q1_d1.log",
+    "median_fps": 6.0,
+    "samples": [
+      6.0,
+      7.0,
+      7.0,
+      6.0,
+      7.0,
+      6.0,
+      6.0
+    ],
+    "last_render": [
+      6,
+      266,
+      46726
+    ]
+  },
+  {
+    "phase": "apr\u00e8s",
+    "log": "fps_parc_10_q2_d2.log",
+    "median_fps": 6.0,
+    "samples": [
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      5.0,
+      6.0,
+      6.0,
+      5.0,
+      7.0
+    ],
+    "last_render": [
+      5,
+      273,
+      47952
+    ]
+  },
+  {
+    "phase": "apr\u00e8s",
+    "log": "fps_parc_1_q1_d1.log",
+    "median_fps": 6.0,
+    "samples": [
+      6.0,
+      5.0,
+      6.0,
+      6.0,
+      6.0,
+      5.0,
+      6.0,
+      5.0
+    ],
+    "last_render": [
+      5,
+      454,
+      111916
+    ]
+  },
+  {
+    "phase": "apr\u00e8s",
+    "log": "fps_parc_5_q1_d1.log",
+    "median_fps": 6.0,
+    "samples": [
+      7.0,
+      6.0,
+      7.0,
+      6.0,
+      7.0,
+      6.0,
+      6.0
+    ],
+    "last_render": [
+      6,
+      569,
+      153829
+    ]
+  },
+  {
+    "phase": "apr\u00e8s",
+    "log": "fps_parc_9_q1_d1.log",
+    "median_fps": 6.0,
+    "samples": [
+      6.0,
+      6.0,
+      7.0,
+      6.0,
+      6.0,
+      6.0,
+      5.0,
+      6.0
+    ],
+    "last_render": [
+      5,
+      509,
+      132812
+    ]
+  }
+]

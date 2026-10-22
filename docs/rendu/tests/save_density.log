@@ -1,0 +1,6 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+
+PASS legacy save without density retains progress and medium default
+PASS high density round trip retains legacy progress
+PASS invalid density clamped on load
+SAVE DENSITY checks=3 failures=0 isolated=/home/user/.cache/grindlish/density_save_test/godot/app_userdata/Grindlish

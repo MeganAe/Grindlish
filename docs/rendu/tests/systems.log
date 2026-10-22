@@ -1,0 +1,107 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+
+PASS insufficient coins cannot purchase style
+PASS style purchase charges exact price
+PASS owned style can be equipped without payment
+PASS 3D preview does not charge coins
+PASS physical key remapping applies
+PASS reset removes old bindings and restores defaults
+PASS English menu translation loads
+PASS ten indicative B1 entries supplied
+PASS audio mixer produces non-silent effect
+PASS audio mixer produces non-silent voice
+PASS audio mixer produces non-silent music
+PASS audio mixer produces non-silent rolling
+PASS failed word is selected for review
+PASS successful word scheduled in the future
+PASS unique/audio/image board
+PASS unique/audio/image wheel
+PASS unique/audio/image rail
+PASS unique/audio/image jump
+PASS unique/audio/image trick
+PASS unique/audio/image speed
+PASS unique/audio/image turn
+PASS unique/audio/image helmet
+PASS unique/audio/image knee
+PASS unique/audio/image shoe
+PASS unique/audio/image push
+PASS unique/audio/image ride
+PASS unique/audio/image street
+PASS unique/audio/image bench
+PASS unique/audio/image shop
+PASS unique/audio/image car
+PASS unique/audio/image tree
+PASS unique/audio/image house
+PASS unique/audio/image park
+PASS unique/audio/image road
+PASS unique/audio/image door
+PASS unique/audio/image window
+PASS unique/audio/image school
+PASS unique/audio/image friend
+PASS unique/audio/image beach
+PASS unique/audio/image wave
+PASS unique/audio/image sand
+PASS unique/audio/image shell
+PASS unique/audio/image boat
+PASS unique/audio/image sea
+PASS unique/audio/image sun
+PASS unique/audio/image fish
+PASS unique/audio/image water
+PASS unique/audio/image wind
+PASS unique/audio/image bird
+PASS unique/audio/image sky
+PASS unique/audio/image truck
+PASS unique/audio/image crane
+PASS unique/audio/image metal
+PASS unique/audio/image factory
+PASS unique/audio/image bridge
+PASS unique/audio/image worker
+PASS unique/audio/image tool
+PASS unique/audio/image wood
+PASS unique/audio/image brick
+PASS unique/audio/image roof
+PASS unique/audio/image gate
+PASS unique/audio/image machine
+PASS unique/audio/image light
+PASS unique/audio/image star
+PASS unique/audio/image moon
+PASS unique/audio/image night
+PASS unique/audio/image city
+PASS unique/audio/image shadow
+PASS unique/audio/image cloud
+PASS unique/audio/image dream
+PASS unique/audio/image sound
+PASS unique/audio/image music
+PASS unique/audio/image evening
+PASS unique/audio/image lamp
+PASS unique/audio/image balance
+PASS unique/audio/image protect
+PASS unique/audio/image traffic
+PASS unique/audio/image journey
+PASS unique/audio/image current
+PASS unique/audio/image harbor
+PASS unique/audio/image repair
+PASS unique/audio/image material
+PASS unique/audio/image reflect
+PASS unique/audio/image silence
+PASS timer paused
+PASS resume unpauses
+PASS free mode really has no timer
+PASS touch jump press
+PASS touch jump release
+PASS touch clears on pause/resize
+PASS touch ignored while paused
+PASS twelve safe connected word slots
+PASS letter has connected path
+PASS letter has connected path
+PASS letter has connected path
+PASS letter has connected path
+PASS letter has connected path
+PASS letter has connected path
+PASS letter has connected path
+PASS letter has connected path
+PASS letter has connected path
+PASS letter has connected path
+PASS letter has connected path
+PASS letter has connected path
+SUITE systems checks=104 failures=0

@@ -1,0 +1,482 @@
+[
+  {
+    "agents": 9,
+    "blocked_steps": 0,
+    "conversations": 0,
+    "density": 0,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 1
+  },
+  {
+    "agents": 9,
+    "blocked_steps": 0,
+    "conversations": 0,
+    "density": 0,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 2
+  },
+  {
+    "agents": 8,
+    "blocked_steps": 0,
+    "conversations": 0,
+    "density": 0,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 3
+  },
+  {
+    "agents": 8,
+    "blocked_steps": 0,
+    "conversations": 0,
+    "density": 0,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 4
+  },
+  {
+    "agents": 9,
+    "blocked_steps": 0,
+    "conversations": 0,
+    "density": 0,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 5
+  },
+  {
+    "agents": 8,
+    "blocked_steps": 0,
+    "conversations": 0,
+    "density": 0,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 6
+  },
+  {
+    "agents": 8,
+    "blocked_steps": 0,
+    "conversations": 0,
+    "density": 0,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 7
+  },
+  {
+    "agents": 9,
+    "blocked_steps": 0,
+    "conversations": 0,
+    "density": 0,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 8
+  },
+  {
+    "agents": 9,
+    "blocked_steps": 0,
+    "conversations": 0,
+    "density": 0,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 9
+  },
+  {
+    "agents": 8,
+    "blocked_steps": 0,
+    "conversations": 0,
+    "density": 0,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 10
+  },
+  {
+    "agents": 16,
+    "blocked_steps": 0,
+    "conversations": 2,
+    "density": 1,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 1
+  },
+  {
+    "agents": 16,
+    "blocked_steps": 0,
+    "conversations": 0,
+    "density": 1,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 2
+  },
+  {
+    "agents": 15,
+    "blocked_steps": 0,
+    "conversations": 0,
+    "density": 1,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 3
+  },
+  {
+    "agents": 15,
+    "blocked_steps": 0,
+    "conversations": 0,
+    "density": 1,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 4
+  },
+  {
+    "agents": 16,
+    "blocked_steps": 0,
+    "conversations": 0,
+    "density": 1,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 5
+  },
+  {
+    "agents": 15,
+    "blocked_steps": 8,
+    "conversations": 2,
+    "density": 1,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 6
+  },
+  {
+    "agents": 15,
+    "blocked_steps": 8,
+    "conversations": 2,
+    "density": 1,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 7
+  },
+  {
+    "agents": 16,
+    "blocked_steps": 0,
+    "conversations": 0,
+    "density": 1,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 8
+  },
+  {
+    "agents": 15,
+    "blocked_steps": 0,
+    "conversations": 0,
+    "density": 1,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 9
+  },
+  {
+    "agents": 15,
+    "blocked_steps": 0,
+    "conversations": 0,
+    "density": 1,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 10
+  },
+  {
+    "agents": 24,
+    "blocked_steps": 396,
+    "conversations": 6,
+    "density": 2,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 1
+  },
+  {
+    "agents": 24,
+    "blocked_steps": 159,
+    "conversations": 3,
+    "density": 2,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 2
+  },
+  {
+    "agents": 23,
+    "blocked_steps": 88,
+    "conversations": 3,
+    "density": 2,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 3
+  },
+  {
+    "agents": 23,
+    "blocked_steps": 159,
+    "conversations": 3,
+    "density": 2,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 4
+  },
+  {
+    "agents": 24,
+    "blocked_steps": 30,
+    "conversations": 3,
+    "density": 2,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 5
+  },
+  {
+    "agents": 23,
+    "blocked_steps": 438,
+    "conversations": 6,
+    "density": 2,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 6
+  },
+  {
+    "agents": 23,
+    "blocked_steps": 438,
+    "conversations": 6,
+    "density": 2,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 7
+  },
+  {
+    "agents": 24,
+    "blocked_steps": 235,
+    "conversations": 6,
+    "density": 2,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 8
+  },
+  {
+    "agents": 22,
+    "blocked_steps": 235,
+    "conversations": 6,
+    "density": 2,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 9
+  },
+  {
+    "agents": 23,
+    "blocked_steps": 235,
+    "conversations": 6,
+    "density": 2,
+    "moving": true,
+    "seconds": 60,
+    "violations": {
+      "arena": 0,
+      "pair": 0,
+      "skater": 0,
+      "solid": 0,
+      "sweep": 0
+    },
+    "world": 10
+  }
+]

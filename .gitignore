@@ -1,2 +1,7 @@
 .godot/
 /build/
+/docs/rendu/reference/*.png
+/docs/rendu/apres/*.png
+/docs/rendu/comparaisons/
+/docs/captures/
+/APERCU*.jpg

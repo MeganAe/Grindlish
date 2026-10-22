@@ -1,0 +1,7 @@
+5041404 Deliver complete render atlas, matched before-after boards, measured software FPS and documented hardware limitations
+1d4246e Complete verified CC0 provenance, isolated save migration checks and report tooling
+6d830a9 Verify ten-world modes, collision fuzz and conversations; refine alpine silhouettes and retain landmarks in low quality
+f803068 Preserve all reference level data, diversify new tracks, improve peripheral visibility and index swept obstacle checks
+0d5a50f Add distance-limited Kenney pedestrians, protected traffic and nature routes, reactions, density settings and CC0 world soundtracks
+2088545 Differentiate ten exterior worlds while preserving existing light, camera and track materials
+370900f Freeze supplied lot 2 source and measured render settings before world work

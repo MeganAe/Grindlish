@@ -53,6 +53,7 @@ var _grind_pts_acc := 0.0
 var debug_lines := false
 var demo := false
 var _orbit := 0.0
+var life: Node3D
 
 
 func setup(id: int) -> void:
@@ -103,6 +104,7 @@ func setup(id: int) -> void:
 	cam.target = skater
 	cam.snap(face)
 
+	make_life()
 	_prepare_route.call_deferred()
 
 
@@ -428,3 +430,14 @@ func _exit_tree() -> void:
 		visual.mesh = null
 	for visual in find_children("*", "MultiMeshInstance3D", true, false):
 		visual.multimesh = null
+
+
+func make_life() -> void:
+	if life:
+		life.set_physics_process(false)
+		remove_child(life)
+		life.queue_free()
+	life = preload("res://living_world.gd").new()
+	add_child(life)
+	life.setup(self,lv)
+	bank.connect(life.react)

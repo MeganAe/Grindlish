@@ -1,0 +1,114 @@
+[
+  {
+    "file": "audio/music/time_driving.ogg",
+    "download": "https://www.gamesounds.xyz/Kenney%27s%20Sound%20Pack/Music%20Loops/Loops/Time%20Driving.ogg",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "evidence": "https://www.gamesounds.xyz/Kenney%27s%20Sound%20Pack/Music%20Loops/readme.txt",
+    "source_sha256": "e7f220dca59444699153f4e44972b632258c32d7ee7e617ded9995791e4beac2"
+  },
+  {
+    "file": "audio/music/farm_frolics.ogg",
+    "download": "https://www.gamesounds.xyz/Kenney%27s%20Sound%20Pack/Music%20Loops/Loops/Farm%20Frolics.ogg",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "evidence": "https://www.gamesounds.xyz/Kenney%27s%20Sound%20Pack/Music%20Loops/readme.txt",
+    "source_sha256": "3c1a6ae05701a7e32b6b3c19fae046a46d7183785ff0dbab4cd9b0683655dd89"
+  },
+  {
+    "file": "audio/music/infinite_descent.ogg",
+    "download": "https://www.gamesounds.xyz/Kenney%27s%20Sound%20Pack/Music%20Loops/Loops/Infinite%20Descent.ogg",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "evidence": "https://www.gamesounds.xyz/Kenney%27s%20Sound%20Pack/Music%20Loops/readme.txt",
+    "source_sha256": "586735f25b5f677979e66206cc6dd1c43aaf9de0043697c67c24c149ec6ba95b"
+  },
+  {
+    "file": "birds.ogg",
+    "download": "https://opengameart.org/sites/default/files/birds-isaiah658_0.ogg",
+    "author": "isaiah658",
+    "license": "CC0-1.0",
+    "evidence": "https://opengameart.org/content/ambient-bird-sounds",
+    "source_sha256": "359e4e3f9da9d75aac64cede511c7e3ef8b461f9d9f8c230f8f80e44c4b3e35f"
+  },
+  {
+    "file": "city.ogg",
+    "download": "https://opengameart.org/sites/default/files/busy_cyberworld.ogg",
+    "author": "TinyWorlds",
+    "license": "CC0-1.0",
+    "evidence": "https://opengameart.org/content/scifi-city-ambient-loop",
+    "source_sha256": "db06a538d562b031771f791fe1f5798037030f97dc13d94664b1d7087018ac51"
+  },
+  {
+    "file": "forest.mp3",
+    "download": "https://opengameart.org/sites/default/files/Forest_Ambience.mp3",
+    "author": "TinyWorlds",
+    "license": "CC0-1.0",
+    "evidence": "https://opengameart.org/content/forest-ambience",
+    "source_sha256": "9850aa1d0d5d66bd9c5daf8bb77c6d852e01f2f4de22f283bd5621e8bed13b75"
+  },
+  {
+    "file": "waves.flac",
+    "download": "https://opengameart.org/sites/default/files/wave_01_cc0-18363__jasinski__alkaibeach.flac",
+    "author": "jasinski; submitted by qubodup",
+    "license": "CC0-1.0",
+    "evidence": "https://opengameart.org/content/beach-ocean-waves",
+    "source_sha256": "fcfca178eca2eac536e8c2a4ed5cf8096e44c921acd587047b3d9f1d7845435c"
+  },
+  {
+    "file": "audio/music/flowing_rocks.ogg",
+    "download": "https://www.gamesounds.xyz/Kenney%27s%20Sound%20Pack/Music%20Loops/Loops/Flowing%20Rocks.ogg",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "evidence": "https://www.gamesounds.xyz/Kenney%27s%20Sound%20Pack/Music%20Loops/readme.txt",
+    "source_sha256": "8563774243e381e827cba402cf6ccdc471b8bed3e3fafdf182f36039c2a8479f"
+  },
+  {
+    "file": "wind.ogg",
+    "download": "https://opengameart.org/sites/default/files/wind%20woosh%20loop.ogg",
+    "author": "SketchMan3",
+    "license": "CC0-1.0",
+    "evidence": "https://opengameart.org/content/wind-whoosh-loop",
+    "source_sha256": "0cfdbd3f21ed449689a9024264edf267d0037a6495813a7010827672ec191dac"
+  },
+  {
+    "file": "audio/music/night_beach.ogg",
+    "download": "https://www.gamesounds.xyz/Kenney%27s%20Sound%20Pack/Music%20Loops/Loops/Night%20at%20the%20Beach.ogg",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "evidence": "https://www.gamesounds.xyz/Kenney%27s%20Sound%20Pack/Music%20Loops/readme.txt",
+    "source_sha256": "8beff4d1153fcea045d1f3d01a241f81c6bb7645d64d5e52511152d1ff19c768"
+  },
+  {
+    "file": "rain.zip",
+    "download": "https://opengameart.org/sites/default/files/Rain%20OGG.zip",
+    "author": "Ylmir",
+    "license": "CC0-1.0",
+    "evidence": "https://opengameart.org/content/rain-loopable",
+    "source_sha256": "e68f3e1c77493cf43bec84cebff5043bff6be9ce16d59b24caa988cd460aa75b"
+  },
+  {
+    "file": "audio/music/polka_train.ogg",
+    "download": "https://www.gamesounds.xyz/Kenney%27s%20Sound%20Pack/Music%20Loops/Loops/Polka%20Train.ogg",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "evidence": "https://www.gamesounds.xyz/Kenney%27s%20Sound%20Pack/Music%20Loops/readme.txt",
+    "source_sha256": "18fda64504def86792493065b584ff5e762729989f2a9f8fb83284136a483e7b"
+  },
+  {
+    "file": "audio/music/alpha_dance.ogg",
+    "download": "https://www.gamesounds.xyz/Kenney%27s%20Sound%20Pack/Music%20Loops/Loops/Alpha%20Dance.ogg",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "evidence": "https://www.gamesounds.xyz/Kenney%27s%20Sound%20Pack/Music%20Loops/readme.txt",
+    "source_sha256": "00cea1a7a89052312d9055dc6dda8c7e5cf577e8db8c5f2dbe1da7c3af89f9de"
+  },
+  {
+    "file": "assets/licenses/Kenney_Music_Loops.txt",
+    "download": "https://www.gamesounds.xyz/Kenney%27s%20Sound%20Pack/Music%20Loops/readme.txt",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "evidence": "https://www.gamesounds.xyz/Kenney%27s%20Sound%20Pack/Music%20Loops/readme.txt",
+    "source_sha256": "ff194834cdd5a72fcf4febd65210bb48a15117abd23f5745029a4a81ce30db0a"
+  }
+]

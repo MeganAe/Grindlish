@@ -1,0 +1,21 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+Requested V-Sync mode: Enabled - FPS will likely be capped to the monitor refresh rate.
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+T=0 pos=(0, 0.2, 20) v=4 st=0 score=0 coins=0 L=0 bails=0 st=play
+T=2 pos=(-4.5, 0, 19.5) v=4 st=0 score=40 coins=4 L=0 bails=0 st=play
+Project FPS: 6 (166.66 mspf)
+Project FPS: 5 (200.00 mspf)
+Project FPS: 5 (200.00 mspf)
+T=4 pos=(-8.900001, 0, 18.5) v=0.4 st=0 score=40 coins=4 L=0 bails=0 st=play
+Project FPS: 5 (200.00 mspf)
+Project FPS: 5 (200.00 mspf)
+Project FPS: 5 (200.00 mspf)
+T=6 pos=(-12.1, 0, 16.9) v=2.1 st=0 score=40 coins=4 L=0 bails=0 st=play
+Project FPS: 5 (200.00 mspf)
+Project FPS: 6 (166.66 mspf)
+Project FPS: 5 (200.00 mspf)
+DONE ms=11858 state=play res={  }
+RENDER fps=5 drawcalls=394 primitives=126276
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:360)

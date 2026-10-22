@@ -1,0 +1,303 @@
+[
+  {
+    "name": "parc_1",
+    "flags": [
+      "--screen=play",
+      "--level=1",
+      "--auto",
+      "--word=board"
+    ],
+    "frame": 180,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "49ce44f74d1e13f41ff71987ea94e2cce6e81d8b858034c1d78743563b3aaa84"
+  },
+  {
+    "name": "parc_2",
+    "flags": [
+      "--screen=play",
+      "--level=2",
+      "--auto",
+      "--word=board"
+    ],
+    "frame": 180,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "b8402682d861cee631a1d05959fbb1c1097953b221a241236888ca5988949d87"
+  },
+  {
+    "name": "parc_3",
+    "flags": [
+      "--screen=play",
+      "--level=3",
+      "--auto",
+      "--word=board"
+    ],
+    "frame": 180,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "f21574ea86f20221effe69a4a70845930ffc9c0a6af486d36389a1806056e3d5"
+  },
+  {
+    "name": "parc_4",
+    "flags": [
+      "--screen=play",
+      "--level=4",
+      "--auto",
+      "--word=board"
+    ],
+    "frame": 180,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "bc7ba4f8507d4885658eddab4ec3f60db90813fa93ba0d2493cb7bb53238e6c0"
+  },
+  {
+    "name": "parc_5",
+    "flags": [
+      "--screen=play",
+      "--level=5",
+      "--auto",
+      "--word=board"
+    ],
+    "frame": 180,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "2311c0eae9cd8ec3304c5e8d8a0bcd46be8db4e9121a457572a38e950d348123"
+  },
+  {
+    "name": "parc_6",
+    "flags": [
+      "--screen=play",
+      "--level=6",
+      "--auto",
+      "--word=board"
+    ],
+    "frame": 180,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "436a3d687c94501269b5fab40b474873e26f71baef43cca9d3c44033271ddf47"
+  },
+  {
+    "name": "parc_7",
+    "flags": [
+      "--screen=play",
+      "--level=7",
+      "--auto",
+      "--word=board"
+    ],
+    "frame": 180,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "dbad76b9339629e978fdb867fad9ff16eedf79918945bc206cffb4fa3fa54d30"
+  },
+  {
+    "name": "menu",
+    "flags": [
+      "--screen=menu"
+    ],
+    "frame": 12,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "d6086ad815ddf7ab4bf36b37b2b3dda2ba8d38d0e5fe80ee11127bd713cda239"
+  },
+  {
+    "name": "modes",
+    "flags": [
+      "--screen=modes"
+    ],
+    "frame": 12,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "7803214e31a7e6c0de15fa834740faf588ea5b6626253290029e595ac3bd0ec5"
+  },
+  {
+    "name": "levels",
+    "flags": [
+      "--screen=levels",
+      "--cheat"
+    ],
+    "frame": 12,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "4583710b0835861a2f19aea9cfdeea84ceb7e9f6b51ffcb21dffb76d1e6e941c"
+  },
+  {
+    "name": "briefing",
+    "flags": [
+      "--screen=briefing"
+    ],
+    "frame": 12,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "03964c071f5d3225079d8f9a7c3e898436b6e133919e59443981bc9681ae1250"
+  },
+  {
+    "name": "help",
+    "flags": [
+      "--screen=help"
+    ],
+    "frame": 12,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "706157d94f4b0668f57c8aed7d0bb1d661a9e30d61c271ad75983ab7aa699052"
+  },
+  {
+    "name": "options",
+    "flags": [
+      "--screen=options"
+    ],
+    "frame": 12,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "2524754e4faf72869035a84bb4e8b8b084e691a1dff0b2e31258b9081626e920"
+  },
+  {
+    "name": "controls",
+    "flags": [
+      "--screen=controls"
+    ],
+    "frame": 12,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "62bb9c99e346454c2cd480766c19c4b1d834a23c349521771ebfcb9f6747c9e4"
+  },
+  {
+    "name": "pause",
+    "flags": [
+      "--screen=pause"
+    ],
+    "frame": 40,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "a86960806104cd2305f9ad9e44beb0edc087d058edee5994c50cf9817be141f8"
+  },
+  {
+    "name": "end",
+    "flags": [
+      "--screen=end"
+    ],
+    "frame": 140,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "76d66f921b5b60af72f4cc74897e31e5ee87bdbbc10c61452dc4d8464df99e47"
+  },
+  {
+    "name": "shop",
+    "flags": [
+      "--screen=shop"
+    ],
+    "frame": 12,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "cf6700258c6b99b28f41a09fcaafc47e99fe708b06e02f7b20173f16593a8dc9"
+  },
+  {
+    "name": "shop3d",
+    "flags": [
+      "--screen=shop3d"
+    ],
+    "frame": 40,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "93ae555ea355e1782ea5f970137d60ba7e78ae5ba14064dbf8aff058fd7cc29c"
+  },
+  {
+    "name": "notebook",
+    "flags": [
+      "--screen=notebook",
+      "--seed-words"
+    ],
+    "frame": 12,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "f6f5bb2cde73a0ea990c33ca8a152ffaa2b5cecd96b5f7886f565d5decd96071"
+  },
+  {
+    "name": "quiz",
+    "flags": [
+      "--screen=quiz"
+    ],
+    "frame": 12,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "91a63b6cf7ef874a4e1f3078221d7d9697e67697868dec7603de39a35abe2fc9"
+  },
+  {
+    "name": "teacher",
+    "flags": [
+      "--screen=teacher"
+    ],
+    "frame": 12,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "4bbd7aac8a1b53c88d8f527d013b6c1c01e8df7acf7ca398c692eaa8f7bd371b"
+  },
+  {
+    "name": "credits",
+    "flags": [
+      "--screen=credits"
+    ],
+    "frame": 12,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "c7900677e320bf387855350c1cc0fc7ceb20ceb00f0dd84e5e160ebab55647fd"
+  },
+  {
+    "name": "hud_tactile",
+    "flags": [
+      "--screen=play",
+      "--level=1",
+      "--touch"
+    ],
+    "frame": 25,
+    "resolution": [
+      1280,
+      720
+    ],
+    "sha256": "abab88e6a94d29edb4bc07e54868cf446f5e65c286a1f37a1cf75449d16fbec0"
+  }
+]

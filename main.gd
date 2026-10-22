@@ -77,7 +77,7 @@ func _ready() -> void:
 			_begin(int(args.get("level", 1)))
 		_:
 			_show_menu()
-	if str(args.get("test", "")) in ["learning", "safety", "systems", "modes", "collision", "vocabulary"]:
+	if str(args.get("test", "")) in ["learning", "safety", "systems", "modes", "collision", "vocabulary", "life"]:
 		var suite := preload("res://test_suite.gd").new()
 		suite.host = self
 		add_child(suite)
@@ -137,6 +137,11 @@ func _parse_args() -> void:
 			var kv := a.substr(2).split("=", true, 1)
 			args[kv[0]] = kv[1] if kv.size() > 1 else "1"
 	Engine.set_meta("mode", str(args.get("mode", "career")))
+	if args.has("density"):
+		Save.life_density = clampi(int(args.density),0,2)
+	if args.has("quality"):
+		Save.quality = clampi(int(args.quality),0,2)
+		Save.apply_settings()
 	if args.has("locale"):
 		Save.locale = str(args.locale)
 		TranslationServer.set_locale(Save.locale)
@@ -271,6 +276,22 @@ func _begin(id: int) -> void:
 		var ap := preload("res://autopilot.gd").new()
 		ap.game = game
 		game.add_child(ap)
+	if args.has("overview") or args.has("life-camera"):
+		game.cam.set_process(false)
+		if args.has("life-camera"):
+			var h := Vector2(float(game.lv.size[0]),float(game.lv.size[1]))*1.25
+			game.cam.position = Vector3(-h.x-12,5,h.y+12)
+			game.cam.look_at(Vector3(-h.x-3,1,h.y-5),Vector3.UP)
+		else:
+			game.cam.position = Vector3(65,39,75)
+			if args.has("overview-camera"):
+				var xyz := str(args["overview-camera"]).split(",")
+				if xyz.size()==3:
+					game.cam.position = Vector3(float(xyz[0]),float(xyz[1]),float(xyz[2]))
+			game.cam.look_at(Vector3(0,2,-12),Vector3.UP)
+		ui.screen.visible = false
+		ui.hud.visible = false
+		touch.visible = false
 	if str(args.get("screen", "")) == "pause" and not _ended_flow:
 		get_tree().create_timer(0.1).timeout.connect(_pause)
 	if str(args.get("screen", "")) == "end":
@@ -379,8 +400,12 @@ func _on_action(act: String, arg: Variant) -> void:
 				state = "pause"
 			else:
 				ui.transition(_show_menu)
+		"life_changed":
+			if game:
+				game.make_life()
 		"quality_changed":
 			if game:
+				game.make_life()
 				game.skater.god = Engine.has_meta("god") or Save.no_fall
 				for child in game.get_children():
 					if child is DirectionalLight3D:

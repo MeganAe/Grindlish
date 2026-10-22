@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Regenerate the provenance inventory. No network; Python standard library."""
 from pathlib import Path
-import csv,hashlib
+import csv,hashlib,json
 ROOT=Path(__file__).resolve().parents[1]
+world_sources=json.loads((ROOT/'docs/rendu/audio_sources.json').read_text())
+world_source_map={r['file']:r for r in world_sources}
 items=[]
 for folder in ['models','assets','audio','data']:
     items += [p for p in (ROOT/folder).rglob('*') if p.is_file() and p.suffix not in ['.import'] and not p.name.startswith('.')]
@@ -23,6 +25,21 @@ for file in sorted(items):
         author='rubberduck';license='CC0';source='https://opengameart.org/content/30-cc0-sfx-loops';change='Selected original Ogg file'
     elif name.startswith('audio/music/jingles'):
         author='Kenney';license='CC0';source='https://kenney.nl/assets/music-jingles';change='Selected original Ogg file'
+    elif name.startswith('audio/worlds/'):
+        sources={
+          'birds.ogg':['birds.ogg'], 'city.ogg':['city.ogg'], 'forest.mp3':['forest.mp3'], 'wind.ogg':['wind.ogg'], 'waves.ogg':['waves.flac'],
+          'harbor.ogg':['waves.flac'], 'meadow.ogg':['birds.ogg','wind.ogg'], 'alpine.ogg':['wind.ogg','rain.zip'], 'stadium.ogg':['city.ogg']
+        }[file.name]
+        source_rows=[r for r in world_sources if r['file'] in sources]
+        author='; '.join(r['author'] for r in source_rows)
+        license='CC0'
+        source='; '.join(r['evidence'] for r in source_rows)
+        change='Unmodified source (renamed)' if file.name in ['birds.ogg','city.ogg','forest.mp3','wind.ogg'] else 'FFmpeg conversion/composition; see docs/rendu/AUDIO.md'
+        if file.name in ['harbor.ogg','stadium.ogg']:
+            author+='; rubberduck'
+            source+='; https://opengameart.org/content/30-cc0-sfx-loops'
+    elif name in world_source_map:
+        row=world_source_map[name];author=row['author'];license=row['license'];source=row['evidence'];change='Unmodified Ogg loop, renamed'
     elif name.startswith('audio/music/'):
         license='CC0'
         author,source,change={

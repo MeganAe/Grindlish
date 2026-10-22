@@ -7,6 +7,7 @@ var ordered_letters := false
 var no_timer := false
 var no_fall := false
 var hints := true
+var life_density := 1
 var quality := 1
 var fps_limit := 60
 var left_handed := false
@@ -53,9 +54,10 @@ func load_data() -> void:
 	if cfg.load(PATH) != OK:
 		if cfg.load(PATH + ".bak") != OK:
 			return
-	for key in ["ordered_letters", "no_timer", "no_fall", "hints", "quality", "fps_limit", "left_handed", "touch_scale", "text_scale", "vocabulary_level", "locale", "key_bindings", "teacher_pin_hash"]:
+	for key in ["life_density", "ordered_letters", "no_timer", "no_fall", "hints", "quality", "fps_limit", "left_handed", "touch_scale", "text_scale", "vocabulary_level", "locale", "key_bindings", "teacher_pin_hash"]:
 		if cfg.has_section_key("v2", key):
 			set(key, cfg.get_value("v2", key))
+	life_density = clampi(int(life_density),0,2)
 	records = cfg.get_value("v2", "records", {})
 	streak = int(cfg.get_value("v2", "streak", 0))
 	last_day = str(cfg.get_value("v2", "last_day", ""))
@@ -84,7 +86,7 @@ func save_data() -> void:
 	if no_save:
 		return
 	var cfg := ConfigFile.new()
-	for key in ["ordered_letters", "no_timer", "no_fall", "hints", "quality", "fps_limit", "left_handed", "touch_scale", "text_scale", "vocabulary_level", "locale", "records", "key_bindings", "teacher_pin_hash", "streak", "last_day"]:
+	for key in ["life_density", "ordered_letters", "no_timer", "no_fall", "hints", "quality", "fps_limit", "left_handed", "touch_scale", "text_scale", "vocabulary_level", "locale", "records", "key_bindings", "teacher_pin_hash", "streak", "last_day"]:
 		cfg.set_value("v2", key, get(key))
 	cfg.set_value("v2", "schema", 2)
 	cfg.set_value("progress", "coins", coins)

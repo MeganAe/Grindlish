@@ -88,8 +88,8 @@ func play_music(key: String) -> void:
 		if key.is_empty():
 			music_player.stop()
 			return
-		var file := "chill.ogg" if key == "menu" or key in ["park1", "park2", "park6"] else ("calm.mp3" if key in ["park3", "park7"] else "downtempo.ogg")
-		music_player.stream = _loop("res://audio/music/" + file)
+		var path: String = "res://audio/music/chill.ogg" if key=="menu" else preload("res://worlds.gd").profile(int(key.trim_prefix("park"))).music
+		music_player.stream = _loop(path)
 		music_player.play())
 	music_tween.tween_property(music_player, "volume_db", -12.0, 0.4)
 
@@ -118,9 +118,9 @@ func update_skate(speed: float, grinding: bool, active: bool) -> void:
 	grind_player.volume_db = -23.0
 
 func set_ambience(level: int) -> void:
-	var file := "water_flowing.ogg" if level in [3, 7] else ("machine_04.ogg" if level == 4 else "ambient_01.ogg")
-	ambience_player.stream = _loop("res://audio/loops/" + file)
-	ambience_player.volume_db = -32.0
+	var path: String = preload("res://worlds.gd").profile(level).ambience
+	ambience_player.stream = _loop(path)
+	ambience_player.volume_db = -28.0
 	ambience_player.play()
 
 func stop_run() -> void:

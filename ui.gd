@@ -397,7 +397,12 @@ func show_levels() -> void:
 	grid.add_theme_constant_override("h_separation", 30)
 	grid.add_theme_constant_override("v_separation", 30)
 	grid.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
-	v.add_child(grid)
+	var scroller := ScrollContainer.new()
+	scroller.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	scroller.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	scroller.follow_focus = true
+	v.add_child(scroller)
+	scroller.add_child(grid)
 	var first: Button = null
 	for i in Lv.count():
 		var card := _level_card(Lv.get_level(i + 1))
@@ -408,7 +413,7 @@ func show_levels() -> void:
 			first = card
 	var back := _btn("Retour", func(): action.emit("menu", null), 340, 80, 38, false)
 	back.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
-	grid.add_child(back)
+	v.add_child(back)
 	screen.add_child(_coin_chip())
 	_focus(first)
 
@@ -425,7 +430,7 @@ func _level_card(lv: Dictionary) -> Button:
 		s.border_width_bottom = 10
 		b.add_theme_stylebox_override(st, s)
 	var grey := Color(0.12, 0.12, 0.27, 0.45)
-	var name_l := _lbl("%d · %s" % [id, lv["name"]], 46, grey if locked else INK)
+	var name_l := _lbl("%d · %s" % [id, tr(str(lv["name"]))], 46, grey if locked else INK)
 	name_l.position = Vector2(28, 18)
 	name_l.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	b.add_child(name_l)
@@ -630,6 +635,9 @@ func show_shop_preview(reset := true) -> void:
 func show_options(from_pause := false) -> void:
 	var v := _text_page("Réglages", func(): action.emit("options_back", null))
 	v.add_child(_lbl("Audio & affichage", 34, INK))
+	_choice_row(v, "Densité de vie", ["Basse", "Moyenne", "Haute"], Save.life_density, func(i):
+		Save.life_density = i
+		action.emit("life_changed", null))
 	_slider_row(v, "Musique", Save.music, func(x): Save.music = x; Save.apply_settings())
 	_slider_row(v, "Effets / voix", Save.sfx, func(x): Save.sfx = x; Save.apply_settings())
 	_toggle_row(v, "Plein écran", Save.fullscreen, func(on): Save.fullscreen = on; Save.apply_settings())
@@ -1178,14 +1186,14 @@ func show_word_quiz(w: Dictionary, on_done := Callable()) -> void:
 
 func show_credits() -> void:
 	var v := _text_page("Crédits & licences")
-	for text in ["Grindlish — jeu original de skate et de vocabulaire.", "Modèles Mini Skate : Kenney (CC0).", "Effets et jingles : Kenney (CC0).", "Boucles sonores : rubberduck / OpenGameArt (CC0).", "Musique : omfgdude + qubodup, wipics, Nostromo (CC0).", "Voix anglaise : Piper, modèle LJSpeech de Bryce Beattie (domaine public).", "Données d'origine : Linda Johnson / Keith Ito, domaine public.", "Police DejaVu Sans : licence Bitstream/DejaVu fournie.", "Moteur : Godot 4.3, licence MIT.", "Jeu hors ligne. Aucun compte, publicité, télémétrie ou suivi.", "Détails fichier par fichier : CREDITS.md et docs/ASSETS_LEDGER.csv."]:
+	for text in ["Grindlish — jeu original de skate et de vocabulaire.", "Modèles Mini Skate : Kenney (CC0).", "Effets et jingles : Kenney (CC0).", "Boucles sonores : rubberduck / OpenGameArt (CC0).", "Musique : omfgdude + qubodup, wipics, Nostromo (CC0).", "Nouvelles musiques : Kenney, Music Loops (CC0).", "Ambiances : isaiah658, TinyWorlds, jasinski / qubodup, SketchMan3, Ylmir (CC0).", "Voix anglaise : Piper, modèle LJSpeech de Bryce Beattie (domaine public).", "Données d'origine : Linda Johnson / Keith Ito, domaine public.", "Police DejaVu Sans : licence Bitstream/DejaVu fournie.", "Moteur : Godot 4.3, licence MIT.", "Jeu hors ligne. Aucun compte, publicité, télémétrie ou suivi.", "Détails fichier par fichier : CREDITS.md et docs/ASSETS_LEDGER.csv."]:
 		v.add_child(_lbl(text, 25, INK))
 
 func show_briefing(id: int) -> void:
 	var level := Lv.get_level(id)
 	var word := Lexicon.choose(id)
-	var v := _text_page(tr("Étape %d · %s") % [id, level.name])
-	var stories := ["Max et Lou commencent leur entraînement pour le tournoi international.", "Lou explore la plaza : chaque rencontre est une occasion de parler anglais.", "Sur la côte, Max apprend les mots qui décrivent le paysage.", "Le crew prépare ses figures dans les anciens entrepôts.", "Sous les lumières de la ville, place à la finale !", "Une session sur les toits pour fêter le chemin parcouru.", "Dernière escale aux docks : le voyage ne fait que commencer."]
+	var v := _text_page(tr("Étape %d · %s") % [id, tr(str(level.name))])
+	var stories := ["Max et Lou commencent leur entraînement pour le tournoi international.", "Lou explore la plaza : chaque rencontre est une occasion de parler anglais.", "Sur la côte, Max apprend les mots qui décrivent le paysage.", "Le crew prépare ses figures dans les anciens entrepôts.", "Sous les lumières de la ville, place à la finale !", "Une session sur les toits pour fêter le chemin parcouru.", "Dernière escale aux docks : le voyage ne fait que commencer.", "Un entraînement au grand air entre les moulins et les vergers.", "Une étape dans les montagnes, sous quelques flocons.", "Le stade accueille enfin le tournoi international !"]
 	var story := _lbl(stories[clampi(id - 1, 0, stories.size() - 1)], 29, INK)
 	story.custom_minimum_size.x = 1100
 	story.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART

@@ -1,0 +1,192 @@
+[
+  {
+    "ambience": "res://audio/worlds/birds.ogg",
+    "ambient_energy": 0.55,
+    "arena_layout_sha256": "eae7455283f188a2ff746c16919a866fc9e7ff046ca2ef7b60b5e6d413e3d4e8",
+    "bonus": false,
+    "floor": "778b91ff",
+    "global_fog": false,
+    "id": 1,
+    "kind": "suburb",
+    "music": "res://audio/music/chill.ogg",
+    "name": "Quartier des érables",
+    "outer": "80ad73ff",
+    "sky": [
+      "73b3f2ff",
+      "d9ebffff"
+    ],
+    "sun_energy": 0.85,
+    "weather": "breeze"
+  },
+  {
+    "ambience": "res://audio/worlds/city.ogg",
+    "ambient_energy": 0.55,
+    "arena_layout_sha256": "3544f4567b18b4c495dcf709efba89689c270cb86782fb214c51be62fa620d15",
+    "bonus": false,
+    "floor": "778b91ff",
+    "global_fog": false,
+    "id": 2,
+    "kind": "plaza",
+    "music": "res://audio/music/time_driving.ogg",
+    "name": "Place des arcades",
+    "outer": "9e9480ff",
+    "sky": [
+      "f2a673ff",
+      "ffe6b3ff"
+    ],
+    "sun_energy": 0.85,
+    "weather": "cloud"
+  },
+  {
+    "ambience": "res://audio/worlds/waves.ogg",
+    "ambient_energy": 0.55,
+    "arena_layout_sha256": "0d7b995d387874e0f0b9fc6f3a6be40405b0fb18d665d7f7415ffbb563134f56",
+    "bonus": false,
+    "floor": "b9ad94ff",
+    "global_fog": false,
+    "id": 3,
+    "kind": "beach",
+    "music": "res://audio/music/calm.mp3",
+    "name": "Plage et jetée",
+    "outer": "8c8099ff",
+    "sky": [
+      "639cafff",
+      "cfdfceff"
+    ],
+    "sun_energy": 0.85,
+    "weather": "waves"
+  },
+  {
+    "ambience": "res://audio/loops/machine_04.ogg",
+    "ambient_energy": 0.55,
+    "arena_layout_sha256": "1fced688c5845998c6dedad788f7052abd217cd1d8b708081c8e7fc27d90b839",
+    "bonus": false,
+    "floor": "778b91ff",
+    "global_fog": false,
+    "id": 4,
+    "kind": "factory",
+    "music": "res://audio/music/downtempo.ogg",
+    "name": "Fonderie orange",
+    "outer": "666680ff",
+    "sky": [
+      "546a87ff",
+      "e9bd99ff"
+    ],
+    "sun_energy": 0.85,
+    "weather": "steam"
+  },
+  {
+    "ambience": "res://audio/worlds/forest.mp3",
+    "ambient_energy": 0.4,
+    "arena_layout_sha256": "16108fda1683eb53c8256ff6489f1d01e23e3db06a07588f437217b93dd1e490",
+    "bonus": false,
+    "floor": "b9ad94ff",
+    "global_fog": false,
+    "id": 5,
+    "kind": "garden",
+    "music": "res://audio/music/infinite_descent.ogg",
+    "name": "Jardin des lucioles",
+    "outer": "333852ff",
+    "sky": [
+      "0d1440ff",
+      "664d99ff"
+    ],
+    "sun_energy": 0.45,
+    "weather": "fireflies"
+  },
+  {
+    "ambience": "res://audio/worlds/wind.ogg",
+    "ambient_energy": 0.4,
+    "arena_layout_sha256": "3e6ad59d6f0bae41c036ab44e8ab0421a15d26af9e244d73a8816efd843cf2da",
+    "bonus": true,
+    "floor": "778b91ff",
+    "global_fog": false,
+    "id": 6,
+    "kind": "rooftop",
+    "music": "res://audio/music/flowing_rocks.ogg",
+    "name": "Toits à l'aube",
+    "outer": "233e50ff",
+    "sky": [
+      "284660ff",
+      "edb783ff"
+    ],
+    "sun_energy": 0.45,
+    "weather": "breeze"
+  },
+  {
+    "ambience": "res://audio/worlds/harbor.ogg",
+    "ambient_energy": 0.55,
+    "arena_layout_sha256": "c33bfab64749aa143d251d24b914f07bccfdecff2907cebb51c2c84abe4952ad",
+    "bonus": true,
+    "floor": "b9ad94ff",
+    "global_fog": false,
+    "id": 7,
+    "kind": "harbor",
+    "music": "res://audio/music/night_beach.ogg",
+    "name": "Port des cargos",
+    "outer": "357d94ff",
+    "sky": [
+      "75b6c9ff",
+      "d3e9deff"
+    ],
+    "sun_energy": 0.85,
+    "weather": "waves"
+  },
+  {
+    "ambience": "res://audio/worlds/meadow.ogg",
+    "ambient_energy": 0.55,
+    "arena_layout_sha256": "f686ebde5bc0b14c73e056b8a3a587c0b511964b66115075f5f69e8f3d05897d",
+    "bonus": false,
+    "floor": "74916cff",
+    "global_fog": false,
+    "id": 8,
+    "kind": "meadow",
+    "music": "res://audio/music/farm_frolics.ogg",
+    "name": "Prairie des moulins",
+    "outer": "77a960ff",
+    "sky": [
+      "669ed2ff",
+      "dce8dfff"
+    ],
+    "sun_energy": 0.85,
+    "weather": "leaves"
+  },
+  {
+    "ambience": "res://audio/worlds/alpine.ogg",
+    "ambient_energy": 0.55,
+    "arena_layout_sha256": "84d582243851e7377ff898607ed1007ebda6da0954b83583c0ccf090fcdc652c",
+    "bonus": false,
+    "floor": "7094a5ff",
+    "global_fog": false,
+    "id": 9,
+    "kind": "alpine",
+    "music": "res://audio/music/polka_train.ogg",
+    "name": "Village des cimes",
+    "outer": "a6c6cdff",
+    "sky": [
+      "6a94baff",
+      "d4e2e8ff"
+    ],
+    "sun_energy": 0.85,
+    "weather": "snow"
+  },
+  {
+    "ambience": "res://audio/worlds/stadium.ogg",
+    "ambient_energy": 0.55,
+    "arena_layout_sha256": "ea15ffe166cee15b3f653f9416975463ea4d584d47b92edaeae34f2887d15083",
+    "bonus": false,
+    "floor": "526a89ff",
+    "global_fog": false,
+    "id": 10,
+    "kind": "stadium",
+    "music": "res://audio/music/alpha_dance.ogg",
+    "name": "Stade des étoiles",
+    "outer": "38546cff",
+    "sky": [
+      "223a68ff",
+      "7993b6ff"
+    ],
+    "sun_energy": 0.85,
+    "weather": "confetti"
+  }
+]

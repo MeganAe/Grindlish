@@ -36,3 +36,22 @@ Notices/carte recopiées sous `docs/licenses`. Le moteur de synthèse, eSpeak et
 ## Registre et distribution
 `docs/ASSETS_LEDGER.csv` : auteur, statut/licence, source, transformation et SHA-256 pour chaque asset distribué ; `.import` et caches ne sont pas des assets sources indépendants. Les notices nécessaires aux binaires sont également sous `assets/licenses/`.
 Ni Piper/SDK/JDK ni projets de recherche ne sont embarqués dans les archives livrées.
+
+## Extension dix mondes — audio CC0
+
+Sept musiques de **Kenney**, Music Loops 1.1 : Time Driving, Infinite Descent,
+Flowing Rocks, Night at the Beach, Farm Frolics, Polka Train, Alpha Dance.
+Notice distribuée : `assets/licenses/Kenney_Music_Loops.txt`.
+Preuve : https://www.gamesounds.xyz/Kenney%27s%20Sound%20Pack/Music%20Loops/readme.txt .
+
+Ambiances CC0 : **isaiah658** (Ambient Bird Sounds), **TinyWorlds** (Scifi City,
+Forest Ambience), **jasinski**, soumis par **qubodup** (Beach Ocean Waves),
+**SketchMan3** (wind whoosh loop), **Ylmir** (Rain loopable). Certaines compositions
+incluent les boucles CC0 **rubberduck** déjà présentes. Détails, pages de licence,
+fichiers sources et transformations : `docs/rendu/AUDIO.md` et
+`docs/rendu/audio_sources.json`. Les composites ne sont pas présentés comme des
+enregistrements originaux. CC0 : https://creativecommons.org/publicdomain/zero/1.0/ .
+
+Les piétons emploient les deux modèles Kenney déjà fournis et leurs animations.
+Architecture, silhouettes d'animaux, accessoires, foule MultiMesh et météo
+procédurale sont des créations du projet assistées par IA, pas des packs tiers.

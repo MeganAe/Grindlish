@@ -212,6 +212,27 @@ static func levels() -> Array:
 		pieces.append_array(one("obstacle-box", 0, -3))
 		pieces.append_array(one("bench", -6, 5, "w"))
 		L.append({"id": id, "name": "Rooftop" if bonus == 0 else "Docks", "desc": "Session sur les toits" if bonus == 0 else "Une dernière escale au port", "size": [18, 20], "floor": "concrete" if bonus == 0 else "wood", "time": 150, "pieces": pieces, "spawn": [0.0, 7.0], "face": "n", "stars": [3300, 10000], "sky": [Color("284660"), Color("edb783")] if bonus == 0 else [Color("75b6c9"), Color("d3e9de")], "outer": Color("233e50") if bonus == 0 else Color("357d94"), "letters": [[0, 1.1, 0]], "coins": _coins_line(-5, 6, -5, -5, 7) + _coins_line(5, 6, 5, -5, 7)})
+	# Eight principal worlds plus the two existing bonus IDs (6/7). Save IDs stay stable.
+	for extra in 3:
+		var pieces: Array = []
+		if extra==0:
+			pieces.append_array(row("half-pipe-low", -7.5, -8.5, 16, 1, 0))
+			pieces.append_array(row("rail-low", -5, 4, 5, 0, -1))
+			pieces.append_array(one("ramp", 4, 6))
+			pieces.append_array(one("obstacle-box", 1, -4))
+		elif extra==1:
+			pieces.append_array(row("slope-smooth", -7.5, -8, 16, 1, 0))
+			pieces.append_array(row("half-pipe-low", -7.5, 8, 16, 1, 0, "s"))
+			pieces.append_array(row("rail-high", 5, 3, 6, 0, -1))
+			pieces.append_array(one("ramp", -5, 0, "e"))
+		else:
+			pieces.append_array(row("half-pipe", -8, -8, 17, 1, 0))
+			pieces.append_array(row("half-pipe-low", -8, -5, 12, 0, 1, "w"))
+			pieces.append_array(row("rail-high", 4, 4, 6, 0, -1))
+			pieces.append_array(one("ramp-rail", 7, 3, "w"))
+			pieces.append_array(one("slope-smooth", 4, 6))
+		pieces.append_array(one("bench", 8, 7, "w"))
+		L.append({"id": 8+extra, "name": ["Prairie", "Alpages", "Stade"][extra], "desc": ["Moulins, vergers et grand air", "Chalets, télécabine et neige légère", "La finale sous les projecteurs"][extra], "size": [22,24], "floor": "wood" if extra==0 else "concrete", "floor_colour": [Color("74916c"),Color("7094a5"),Color("526a89")][extra], "time": 150+extra*10, "pieces": pieces, "spawn": [0.0,9.0], "face": "n", "stars": [3500+extra*500,12000+extra*1500], "sky": [[Color("669ed2"),Color("dce8df")],[Color("6a94ba"),Color("d4e2e8")],[Color("223a68"),Color("7993b6")]][extra], "outer": [Color("77a960"),Color("a6c6cd"),Color("38546c")][extra], "letters": [[0,1.1,0]], "coins": _coins_line(-7,8,-7,-5,8)+_coins_line(7,8,7,-5,8)})
 	return L
 
 
@@ -229,4 +250,4 @@ static func get_level(id: int) -> Dictionary:
 
 
 static func count() -> int:
-	return 7
+	return 10

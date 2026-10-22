@@ -44,7 +44,7 @@ func load_words() -> void:
 		words.append(row)
 
 func choose(id: int) -> Dictionary:
-	var themes := ["skate", "town", "sea", "industry", "night", "night", "sea"]
+	var themes := ["skate", "town", "sea", "industry", "night", "night", "sea", "town", "sea", "skate"]
 	var theme: String = themes[clampi(id - 1, 0, themes.size() - 1)]
 	var pool: Array = words.filter(func(w): return w.theme == theme and (Save.vocabulary_level == "ALL" or w.level == Save.vocabulary_level))
 	if pool.is_empty():
